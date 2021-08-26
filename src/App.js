@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import NavBar from './components/NavBar';
+import LikeWhatYouSee2 from './components/LikeWhatYouSee2';
 import NavTabs from './components/NavTabs';
 import LikeWhatYouSee1 from './components/LikeWhatYouSee1';
 import Section from './components/Section';
@@ -37,6 +38,7 @@ function App() {
         <Section sectionName="Covid-19" />
         <Section sectionName="Student Life" />
         <Section sectionName="Explore Housing" />
+        <LikeWhatYouSee2/>
     </div>
   );
 }
