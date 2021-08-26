@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="img-overlay-wrap" id="containers">
@@ -26,15 +27,23 @@
 
             //Circle locations        
             var data = [ 
-                { "name" : "STUDENT LIFE", "cx" : 120, "cy" : 75, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
-                { "name" : "CITY", "cx" : 100, "cy" : 136, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
-                { "name" : "Circle 3", "cx" : 205, "cy" : 150, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
-                { "name" : "COVID-19", "cx" : 240, "cy" : 205, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
+                { "name" : "STUDENT LIFE", "cx" : 120, "cy" : 75, "r" : 8 , "fill" : "#FAE1AF", "linkOne": {"title" : "Decoding the tricky Barnard-Columbia relationship", "href" : "http://columbiaspectator.com"}, 
+                        "linkTwo" : {"title" : "Data Explainer: Class of 2024 and 2025", "href" : "http://columbiaspectator.com"}, 
+                        "linkThree": {"title" : "Culminating community: Get to know Columbia’s biggest campus events", "href" : "http://columbiaspectator.com"},
+                        "linkFour": {"title" : "View more >", "href" : "http://columbiaspectator.com"}},
+                { "name" : "CITY", "cx" : 100, "cy" : 136, "r" : 8 , "fill" : "#FAE1AF", "linkOne": {"title" : "What does the return of students to campus mean for local restaurants?", "href" : "http://columbiaspectator.com"}, 
+                        "linkTwo" : {"title" : "A night out as a Columbia Student", "href" : "http://columbiaspectator.com"}, 
+                        "linkThree": {"title" : "Places around MoHi to buy room necessities", "href" : "http://columbiaspectator.com"},
+                        "linkFour": {"title" : "View more >", "href" : "http://columbiaspectator.com"}},
+                { "name" : "Circle 3", "cx" : 210, "cy" : 70, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
+                { "name" : "COVID-19", "cx" : 240, "cy" : 205, "r" : 8 , "fill" : "#FAE1AF", "linkOne": {"title" : "Barnard breaks from Columbia’s original guidance, will continue mandating indoor masking for fall semester", "href" : "http://columbiaspectator.com"}, 
+                        "linkTwo" : {"title" : "Columbia COVID guidelines for the fall", "href" : "http://columbiaspectator.com"}, 
+                        "linkThree": {"title" : "View more >", "href" : "http://columbiaspectator.com"}},
                 { "name" : "JOIN SPEC", "cx" : 355, "cy" : 142, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
                 { "name" : "EXPLORE HOUSING", "cx" : 320, "cy" : 68, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
                 { "name" : "EXPLORE CLUBS", "cx" : 310, "cy" : 15, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
                 { "name" : "SPECTATOR STAFF", "cx" : 348, "cy" : 195, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"}]
-
+            
             //Hover text
             var hoverdiv = d3.select("#containers").append("div")
             .attr("class", "tooltip-donut")
