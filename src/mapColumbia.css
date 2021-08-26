@@ -1,0 +1,29 @@
+.img-overlay-wrap {
+  position: relative;
+  display: inline-block; /* <= shrinks container to image size */
+  transition: transform 150ms ease-in-out;
+}
+
+.img-overlay-wrap img { /* <= optional, for responsiveness */
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+.img-overlay-wrap svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.tooltip-donut {
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  text-align: center;
+  padding: .75rem;
+  background: #FFFFFF;
+  color: #313639;
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Map of Columbia</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mapColumbia.css">
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="img-overlay-wrap" id="containers">
+            <img src="https://cds-static-hosting.s3.amazonaws.com/NSOP-ILLO.png">
+        </div>
+
+        <script type="text/javascript">
+            var svg = d3.select("#containers")
+                .append("svg")
+                .attr("preserveAspectRatio", "xMinYMin meet")
+                .attr("viewBox", "0 0 400 300")
+                .classed("svg-content", true);
+
+            //Circle locations        
+            var data = [ 
+                { "name" : "STUDENT LIFE", "cx" : 120, "cy" : 75, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
+                { "name" : "CITY", "cx" : 100, "cy" : 136, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
+                { "name" : "Circle 3", "cx" : 205, "cy" : 150, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
+                { "name" : "COVID-19", "cx" : 240, "cy" : 205, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
+                { "name" : "JOIN SPEC", "cx" : 355, "cy" : 142, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
+                { "name" : "EXPLORE HOUSING", "cx" : 320, "cy" : 68, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
+                { "name" : "EXPLORE CLUBS", "cx" : 310, "cy" : 15, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
+                { "name" : "SPECTATOR STAFF", "cx" : 348, "cy" : 195, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"}]
+
+            //Hover text
+            var hoverdiv = d3.select("#containers").append("div")
+            .attr("class", "tooltip-donut")
+            .style("opacity", 0);
+
+            //Creating circles
+            var circles = svg.selectAll('circle')
+            .data(data)
+            .enter()
+            .append('circle')
+            .attr('name', function(d) {return d.name})
+            .attr('cx', function (d) { return d.cx })
+            .attr('cy', function (d) { return d.cy })
+            .attr('r', function (d) { return d.r })
+            .attr('fill', function (d) { return d.fill})
+            .on('mouseover',function(d) {
+                d3.select(this)
+                .transition()
+                .duration(500)
+                .attr('fill','#FFF5E0');
+
+                //Makes the new div appear:
+                hoverdiv.transition()
+                    .duration(500)
+                    .style("opacity", 1);
+                hoverdiv.html(d.name)
+                    .style("left", (d3.event.pageX + 15) + "px")
+                    .style("top", (d3.event.pageY - 15) + "px");
+            })
+
+            .on('click',function(d) {
+                window.location.replace(d.href)    
+            })
+
+            .on('mouseout',function () {
+                d3.select(this)
+                .transition()
+                .duration(1000)
+                .attr('fill','#FAE1AF');
+
+                //Makes the new div disappear:
+                hoverdiv.transition()
+                    .duration('50')
+                    .style("opacity", 0);
+            })
+
+        </script>
+    </body>
+</html>
