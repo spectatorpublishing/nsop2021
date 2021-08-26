@@ -5,8 +5,8 @@ const Wrapper = styled.div`
     background-color: #D37462;
     padding: 2rem 0 2rem 0;
 
-    @media only screen and (max-width: 768px) {
-        margin: 0rem 1rem 0rem 1rem;  
+    @media only screen and (max-width: 800) {
+        padding: 1rem 0 1rem 0;
     }
 `;
 
@@ -35,7 +35,7 @@ const Text = styled.div`
         text-transform: uppercase;
         margin: 0;
 
-        @media only screen and (max-width: 750px) {
+        @media only screen and (max-width: 600px) {
             font-size: 18px;
         }
 
@@ -44,9 +44,8 @@ const Text = styled.div`
         }
     }
     
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 800px) {
         padding: 0 2rem 0rem 2rem;
-        font-size: 17px;
     }
 
     @media only screen and (max-width: 425px) {
@@ -59,7 +58,19 @@ const Column = styled.div`
     flex-direction: column;
     margin: 2rem;
 
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 1370px) {
+        margin: 2rem 0 0 2rem ;
+    }
+
+    @media only screen and (max-width: 1270px) {
+        margin: 2rem;
+    }
+
+    @media only screen and (max-width: 920px) {
+        margin: 2rem 0 0 2rem ;
+    }
+
+    @media only screen and (max-width: 800px) {
         margin: 0;
     }
 `;
@@ -72,7 +83,7 @@ const Box = styled.div`
     padding: 1rem 1rem 0 1rem;
     margin: 0 0 2rem 0;
 
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 800px) {
         text-align: left;
         margin: 1rem 0 0 0;
     }
@@ -87,10 +98,6 @@ const Title = styled.div`
     text-align: left;
     padding-left: 2rem;
 
-    @media only screen and (max-width: 750px) {
-        font-size: 18px;
-    }
-
     @media only screen and (max-width: 425px) {
         font-size: 16px;
     }
@@ -103,7 +110,7 @@ const CreditsList = () => {
         window.addEventListener("resize", () => setWidth(window.innerWidth));
     });
 
-    if (width < 801){
+    if (width < 800){
         return (
             <Wrapper>
                 <Title>Staff</Title>
@@ -205,7 +212,7 @@ const CreditsList = () => {
                 </Text>
             </Wrapper>
         );
-    } else if (width > 800 && width < 1050){
+    } else if (width >= 800 && width < 1270){
         return (
             <Wrapper>
                 <Title>Staff</Title>
