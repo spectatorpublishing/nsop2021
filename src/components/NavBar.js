@@ -15,7 +15,6 @@ const Header = styled.div`
 
 const SubHeader = styled.h4`
     font-family: 'Amiko', sans-serif;
-    font-size: 1rem;
 `;
 
 const Logo = styled.img`
