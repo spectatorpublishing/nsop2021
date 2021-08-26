@@ -35,10 +35,6 @@ const Text = styled.div`
         text-transform: uppercase;
         margin: 0;
 
-        @media only screen and (max-width: 600px) {
-            font-size: 18px;
-        }
-
         @media only screen and (max-width: 425px) {
             font-size: 16px;
         }
