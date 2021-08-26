@@ -18,6 +18,8 @@
             <img src="https://cds-static-hosting.s3.amazonaws.com/NSOP-ILLO.png">
         </div>
 
+        <!-- dynamic html popups -->
+
         <script type="text/javascript">
             var svg = d3.select("#containers")
                 .append("svg")
@@ -27,16 +29,19 @@
 
             //Circle locations        
             var data = [ 
-                { "name" : "STUDENT LIFE", "cx" : 120, "cy" : 75, "r" : 8 , "fill" : "#FAE1AF", "linkOne": {"title" : "Decoding the tricky Barnard-Columbia relationship", "href" : "http://columbiaspectator.com"}, 
+                { "name" : "STUDENT LIFE", "cx" : 120, "cy" : 75, "r" : 8 , "fill" : "#FAE1AF", 
+                        "linkOne": {"title" : "Decoding the tricky Barnard-Columbia relationship", "href" : "http://columbiaspectator.com"}, 
                         "linkTwo" : {"title" : "Data Explainer: Class of 2024 and 2025", "href" : "http://columbiaspectator.com"}, 
                         "linkThree": {"title" : "Culminating community: Get to know Columbia’s biggest campus events", "href" : "http://columbiaspectator.com"},
                         "linkFour": {"title" : "View more >", "href" : "http://columbiaspectator.com"}},
-                { "name" : "CITY", "cx" : 100, "cy" : 136, "r" : 8 , "fill" : "#FAE1AF", "linkOne": {"title" : "What does the return of students to campus mean for local restaurants?", "href" : "http://columbiaspectator.com"}, 
+                { "name" : "CITY", "cx" : 100, "cy" : 136, "r" : 8 , "fill" : "#FAE1AF", 
+                        "linkOne": {"title" : "What does the return of students to campus mean for local restaurants?", "href" : "http://columbiaspectator.com"}, 
                         "linkTwo" : {"title" : "A night out as a Columbia Student", "href" : "http://columbiaspectator.com"}, 
                         "linkThree": {"title" : "Places around MoHi to buy room necessities", "href" : "http://columbiaspectator.com"},
                         "linkFour": {"title" : "View more >", "href" : "http://columbiaspectator.com"}},
                 { "name" : "Circle 3", "cx" : 210, "cy" : 70, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
-                { "name" : "COVID-19", "cx" : 240, "cy" : 205, "r" : 8 , "fill" : "#FAE1AF", "linkOne": {"title" : "Barnard breaks from Columbia’s original guidance, will continue mandating indoor masking for fall semester", "href" : "http://columbiaspectator.com"}, 
+                { "name" : "COVID-19", "cx" : 240, "cy" : 205, "r" : 8 , "fill" : "#FAE1AF", 
+                        "linkOne": {"title" : "Barnard breaks from Columbia’s original guidance, will continue mandating indoor masking for fall semester", "href" : "http://columbiaspectator.com"}, 
                         "linkTwo" : {"title" : "Columbia COVID guidelines for the fall", "href" : "http://columbiaspectator.com"}, 
                         "linkThree": {"title" : "View more >", "href" : "http://columbiaspectator.com"}},
                 { "name" : "JOIN SPEC", "cx" : 355, "cy" : 142, "r" : 8 , "fill" : "#FAE1AF", "href": "http://columbiaspectator.com"},
@@ -69,13 +74,42 @@
                 hoverdiv.transition()
                     .duration(500)
                     .style("opacity", 1);
-                hoverdiv.html(d.name)
+                if(d.href){
+                    hoverdiv.html(d.name)
                     .style("left", (d3.event.pageX + 15) + "px")
                     .style("top", (d3.event.pageY - 15) + "px");
+                }
+                else if(d.linkFour){ 
+                    hoverdiv.html(`<div class="longData">
+                        <p>${d.name}</p>
+                        <div class="longDataLinks">
+                        <a href=${d.linkOne.href}>${d.linkOne.title}</a><br>
+                        <a href=${d.linkTwo.href}>${d.linkTwo.title}</a><br>
+                        <a href=${d.linkThree.href}>${d.linkThree.title}</a><br>
+                        <a class="viewMore" href=${d.linkFour.href}>${d.linkFour.title}</a>
+                        </div>
+                    </div>`)
+                    .style("left", (d3.event.pageX + 15) + "px")
+                    .style("top", (d3.event.pageY - 15) + "px");
+                }
+                else{ 
+                    hoverdiv.html(`<div class="longData">
+                        <p>${d.name}</p>
+                        <div class="longDataLinks">
+                        <a href=${d.linkOne.href}>${d.linkOne.title}</a><br>
+                        <a href=${d.linkTwo.href}>${d.linkTwo.title}</a><br>
+                        <a class="viewMore" href=${d.linkThree.href}>${d.linkThree.title}</a><br>
+                        </div>
+                    </div>`)
+                    .style("left", (d3.event.pageX + 15) + "px")
+                    .style("top", (d3.event.pageY - 250) + "px");
+                }
             })
-
+            
             .on('click',function(d) {
-                window.location.replace(d.href)    
+                if(d.href){
+                    window.location.replace(d.href)    
+                }
             })
 
             .on('mouseout',function () {
@@ -88,6 +122,8 @@
                 hoverdiv.transition()
                     .duration('50')
                     .style("opacity", 0);
+
+                //HOW TO MAKE THE LONG POPUPS NOT DISAPPEAR??
             })
 
         </script>

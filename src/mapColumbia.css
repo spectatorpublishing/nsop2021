@@ -27,3 +27,24 @@ div.tooltip-donut {
   pointer-events: none;
   font-size: 1.3rem;
 }
+
+div.longData {
+  width:18vw;
+  padding:1%;
+}
+
+div.longDataLinks{
+  text-align: left;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+a {
+  font-family: 'Amiko';
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+.viewMore {
+  color: #D37462;
+}
