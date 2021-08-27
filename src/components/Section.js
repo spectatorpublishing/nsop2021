@@ -8,9 +8,8 @@ const Wrapper = styled.div`
     margin: 1rem;
 
     @media ${device.mobile} {
-        margin: 3rem 5rem;
+        margin: 8rem 0;
     }
-    /* margin: 8rem 0; */
 `;
 
 const ArticleWrapper = styled.div`
