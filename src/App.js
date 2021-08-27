@@ -32,9 +32,9 @@ function App() {
           </a>
         </FirstFold>
         <LikeWhatYouSee1 />
-        <CoursesWeLoved/>
         <Section sectionName="Academics" />
         <Section sectionName="COVID-19" />
+        <CoursesWeLoved />
         <Section sectionName="Student Life" />
         <Section sectionName="Explore Housing" />
         <LikeWhatYouSee2/>

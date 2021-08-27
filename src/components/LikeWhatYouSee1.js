@@ -1,13 +1,19 @@
 import styled from 'styled-components';
 
+const BigWrap = styled.div`
+    display: flex;
+    margin-top: -1rem;
+`;
+
 const Wrapper = styled.div`
     background-color: #E0E2DC;
     display: flex;
-    width: 70%;
     margin-right: 2rem;
-    margin-left: auto;
+    margin-left: -5rem;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    height: fit-content;
+
 
     @media (max-width: 425px) {
         margin-right: 0rem;
@@ -28,6 +34,8 @@ const MainText = styled.div`
     }
 `;
 
+const Lines = styled.img``;
+
 const Paragraph = styled.div`
     font-family: 'Amiko', sans-serif;
     width: 65%;
@@ -46,14 +54,17 @@ const Paragraph = styled.div`
 
 const LikeWhatYouSee1 = () => {
     return (
-        <Wrapper>
-            <MainText>Like What You See?</MainText>
-            <Paragraph>
-                This website was created entirely by our tech and product design teams <a href="http://www.specpublishing.com/join">here</a> at Spectator.
-                Curious to see how it's done? Interested in doing this work yourself?
-                Click here to learn how to join our team.
-            </Paragraph>
-        </Wrapper>
+        <BigWrap>
+            <Lines src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Like+What+You+See.svg" />
+            <Wrapper>
+                <MainText>Like What You See?</MainText>
+                <Paragraph>
+                    This website was created entirely by our tech and product design teams <a href="http://www.specpublishing.com/join">here</a> at Spectator.
+                    Curious to see how it's done? Interested in doing this work yourself?
+                    Click here to learn how to join our team.
+                </Paragraph>
+            </Wrapper>
+        </BigWrap>
     )
 };
 

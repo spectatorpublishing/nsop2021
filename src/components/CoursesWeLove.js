@@ -2,31 +2,43 @@ import styled from 'styled-components';
 
 const CoursesWeLoved = () => {
     return (
-        <Wrapper>
-            <TopRow>
-                <TopLeft src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Course+We+Loved+-+Top+Left.svg"></TopLeft>
-                <TextFilled>Courses We Loved</TextFilled>
-                <TopRight src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Top+Right.svg"></TopRight>
-            </TopRow>
-            <Center src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Center.svg"></Center>
-            <BottomRow>
-                <BottomLeft src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Bottom+Left.svg"></BottomLeft>
-                <div>
-                    <Text>Sign up for the <a href="http://columbiaspectator.us4.list-manage.com/subscribe/post?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d">wake up call</a>, our daily newspaper</Text>
-                    <Text>Listen to our <a href="https://www.columbiaspectator.com/podcasts/">podcast miniseries</a></Text>
-                </div>
-            </BottomRow>
-        </Wrapper>
+        <BigWrap>
+            <Wrapper>
+                <TopRow>
+                    <TopLeft src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Course+We+Loved+-+Top+Left.svg"></TopLeft>
+                    <TextFilled>Courses We Loved</TextFilled>
+                    <TopRight src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Top+Right.svg"></TopRight>
+                </TopRow>
+                <Center src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Center.svg"></Center>
+                <BottomRow>
+                    <BottomLeft src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Bottom+Left.svg"></BottomLeft>
+                    <div>
+                        <Text>Sign up for the <a href="http://columbiaspectator.us4.list-manage.com/subscribe/post?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d">wake up call</a>, our daily newspaper</Text>
+                        <Text>Listen to our <a href="https://www.columbiaspectator.com/podcasts/">podcast miniseries</a></Text>
+                    </div>
+                </BottomRow>
+            </Wrapper>
+            <Ad src="https://cds-static-hosting.s3.amazonaws.com/Columbia_Orens-300x600.jpg" />
+        </BigWrap>
     )
 };
 
 export default CoursesWeLoved;
+
+const BigWrap = styled.div`
+    display: flex;
+    align-items: center;
+`;
 
 const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     font-family: 'Noto Sans', sans-serif;
     margin: 2rem 0rem 1rem 0rem;
+`;
+
+const Ad = styled.img`
+  margin: 0 2rem;
 `;
 
 const TextFilled = styled.h2`
