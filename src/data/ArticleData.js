@@ -25,6 +25,12 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/required-reading/2017/08/14/first-year-fears-solutions-for-common-academic-worries/"
         },
         {
+            title: "EDIT ME Columbia Crash Course: Demystifying the lore of the Columbia College-SEAS Core",
+            author: "Claire Schnatterbeck",
+            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
+            link: ""
+        },
+        {
             title: "Advice for incoming transfer students to Columbia and Barnard",
             author: "Izzy Mollicone",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/F7AOM4ZPNZAP5IQCOWD3QKZAVM.jpg",
@@ -69,78 +75,185 @@ export const Articles = {
     ],
     "COVID-19": [
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            title: "Barnard breaks from Columbia’s original guidance, will continue mandating indoor masking for fall semester",
+            author: "Dia Gill",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IDE6W5CRVNBO7HOBGH5NEG6Z4E.jpeg",
+            link: "https://www.columbiaspectator.com/news/2021/07/29/barnard-breaks-from-columbias-original-guidance-will-continue-mandating-indoor-masking-for-fall-semester/"
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
-        },
-        {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
-        },
-        {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
-        },
-        {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
-        },
-        {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "EDIT ME Fall COVID-19 guidelines",
+            author: "Stella Pagkas",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
     ],
     "Student Life": [
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "EDIT ME Data explainer focusing on c/o 2024 and 2025",
+            author: "Elizabeth Commisso",
+            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
+            link: ""
+        },
+         {
+            title: "EDIT ME Demographic analysis of the class of 2025",
+            author: "Irie Sentner",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "EDIT ME A guide to Dodge Fitness Center",
+            author: "Miles Schachner and Rebecca Wachen",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "Decoding the tricky Barnard-Columbia relationship",
+            author: "Veronica Grace Taleon",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HWGGNR5R3ZAJROTEI3NJ5S3P7Q",
+            link: "https://www.columbiaspectator.com/required-reading/2017/04/03/decoding-the-tricky-barnard-columbia-relationship/"
+        },
+        {
+            title: "A decade in athletics: How football went from back-to-back winless seasons to second in the Ivy League",
+            author: "Harris Walker",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DFLSCF5OZBC6JHNWLAQXUS22GU.png",
+            link: "https://www.columbiaspectator.com/sports/2020/02/24/a-decade-in-athletics-how-football-went-from-back-to-back-winless-seasons-to-second-in-the-ivy-league/"
+        },
+        {
+            title: "A decade in athletics: Cross country consistently finds itself in the hunt for Ivy titles",
+            author: "Mackenzie George",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/APQVOZIPJVGVDKWECJNEXJ5OXM.png",
+            link: "https://www.columbiaspectator.com/sports/2020/04/30/a-decade-in-athletics-cross-country-consistently-finds-itself-in-the-hunt-for-ivy-titles/"
+        },
+        {
+            title: "A decade in athletics: Tracey Bartholomew is leading women’s soccer out of the night",
+            author: "Adam Lang",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PW6CZURNB5BOPCXFJTGEZUINMA.png",
+            link: "https://www.columbiaspectator.com/sports/2020/04/28/a-decade-in-athletics-tracey-bartholomew-is-leading-womens-soccer-out-of-the-night/"
+        },
+        {
+            title: "Guide to Columbia’s dining halls",
+            author: "Jane Mok",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UPSSES5SRVBBRICDFE2KUVX2HI.gif",
+            link: "https://www.columbiaspectator.com/spectrum/2020/07/16/guide-to-columbias-dining-halls/"
+        },
+        {
+            title: "EDIT ME Here’s how to root for the Columbia athletes who will resume competing this fall",
+            author: "Matthew Kim and Alex Kwok",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "EDIT ME How to join club teams",
+            author: "Bernard Wang",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "EDIT ME 100 Words: Which dining hall is best",
+            author: "Ryan Oden",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "Here is how Columbia athletes fared at the Olympics",
+            author: "Clara Ence Morse and Mackenzie George",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PZB22XIPPVFMXPTY3ZV5EQG6UA.png",
+            link: "https://www.columbiaspectator.com/main/2021/08/11/here-is-how-columbia-athletes-fared-at-the-olympics/"
+        },
+        {
+            title: "An international student’s guide to Columbia",
+            author: "Lina Bennani Karim",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JZMSA6EVLJFEDDRHGXNYZIBZTE",
+            link: "https://www.columbiaspectator.com/spectrum/2019/05/21/an-international-students-guide-to-columbia/"
+        },
+        {
+            title: "How to choose and manage extracurriculars as a first-year",
+            author: "Victoria Yang",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/37EFT3YKOJE2ZCAARGOM6TQEGQ.png",
+            link: "https://www.columbiaspectator.com/required-reading/2017/07/24/how-to-choose-and-manage-extracurriculars-as-a-first-year/"
+        },
+        {
+            title: "How to research campus clubs before the activities fair",
+            author: "Isabella Monaco",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6WMC7MYUWZDX3EDSW76TJCBOKI.png",
+            link: "https://www.columbiaspectator.com/required-reading/2017/07/24/how-to-research-campus-clubs-before-the-activities-fair/"
+        },
+        {
+            title: "Learning our lingo: How to decode Columbia slang",
+            author: "Mariella Evangelista",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QSJQGEXAUBGJZHKQQD2NYAHD2M",
+            link: "https://www.columbiaspectator.com/required-reading/2017/04/18/learning-our-lingo-decode-columbia-slang/"
+        },
+        {
+            title: "Unedited: Seven Columbia YouTubers share all",
+            author: "Holly Qu",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LV6ZIIUUKVGY7HXT3Y4SYNIUVY.PNG",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/04/15/unedited-seven-columbia-youtubers-share-all/"
+        },
+        {
+            title: "Things every first-year should know before coming to Columbia",
+            author: "Rachel Beinus",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/F7Y55RRIYFHPPIXT7WCVVZR6TU",
+            link: "https://www.columbiaspectator.com/spectrum/2018/07/03/things-every-first-year-should-know-before-coming-to-columbia/"
+        },
+        {
+            title: "EDIT ME Back in full force? What Columbia’s theater scene has in store for you",
+            author: "Jane Loughman",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
+        },
+        {
+            title: "EDIT ME Secrets of Columbia University",
+            author: "Noah Sheidlower",
+            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
+            link: ""
+        },
+        {
+            title: "EDIT ME Meet Columbia’s NBC ‘College Bowl’ team",
+            author: "Bella Druckman",
+            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
+            link: ""
+        },
+        {
+            title: "EDIT ME Feature on incoming freshmen who do creative writing",
+            author: "Fernanda Aguero",
+            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
+            link: ""
+        },
+        {
+            title: "EDIT ME Feature on talented incoming student musicians",
+            author: "Noah Bullwinkle",
+            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
+            link: ""
+        },{
+            title: "EDIT ME Columbia Crash Course: What to know before you rush Greek life",
+            author: "Natalie Goldberg",
+            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
+            link: ""
+        },
+        {
+            title: "EDIT ME Columbia Crash Course: How to stay afloat in Columbia’s ocean of clubs",
+            author: "Avery Reed",
+            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
+            link: ""
+        },
+        {
+            title: "Self-care and when to reach out: Prioritizing your mental health",
+            author: "Abhishek Hariharan",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UHUOHLCSFZHIDIG3GXSZYFB5WA.jpg",
+            link: "https://www.columbiaspectator.com/spectrum/2019/04/11/self-care-and-when-to-reach-out-prioritizing-your-mental-health/"
+        },
+        {
+            title: "First-year fears: Solutions for common social and lifestyle worries",
+            author: "Veronica Grace Taleon",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HXA6ASUTIVGQ3FKNG5NG4NPFMY.png",
+            link: "https://www.columbiaspectator.com/required-reading/2017/08/14/first-year-fears-solutions-for-common-social-and-lifestyle-worries/"
+        },
+        {
+            title: "Cultivating community: Get to know Columbia’s biggest campus events",
+            author: "Mariella Evangelista",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AMEIO4C22JCPRH4P7E2CY7RMB4",
+            link: "https://www.columbiaspectator.com/required-reading/2017/03/31/culminating-community-get-to-know-columbias-biggest-campus-events/"
         },
     ],
     "Explore Housing": [
