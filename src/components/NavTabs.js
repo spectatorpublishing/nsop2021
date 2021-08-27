@@ -18,7 +18,7 @@ const NavWrapper = styled.div`
 const Link = styled.a`
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
-    margin: 0.5rem 1rem;
+    margin: 0.5rem 0rem;
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -28,6 +28,7 @@ const Link = styled.a`
     text-decoration: none;
     padding: 0.5rem 1rem;
     width: 7rem;
+
 
     :hover {
         filter: brightness(0.6);
@@ -44,7 +45,7 @@ const Link = styled.a`
 `;
 
 const ExploreButton = styled.a`
-    margin: 0.5rem 1rem;
+    margin: 0.5rem 0rem;
     background-color: #D37462;
     color: white;
     border-radius: 5px;
@@ -62,7 +63,7 @@ const ExploreButton = styled.a`
 `;
 
 const JoinButton = styled.a`
-    margin: 0.5rem 1rem;
+    margin: 0.5rem 0rem;
     background-color: #8B9696;
     border-radius: 5px;
     text-decoration: none;
