@@ -5,6 +5,7 @@ import LikeWhatYouSee2 from './components/LikeWhatYouSee2';
 import NavTabs from './components/NavTabs';
 import LikeWhatYouSee1 from './components/LikeWhatYouSee1';
 import Section from './components/Section';
+import CoursesWeLoved from './components/CoursesWeLove';
 
 const FirstFold = styled.div`
   display: flex;
@@ -34,6 +35,7 @@ function App() {
           </ins> */}
         </FirstFold>
         <LikeWhatYouSee1 />
+        <CoursesWeLoved/>
         <Section sectionName="Academics" />
         <Section sectionName="Covid-19" />
         <Section sectionName="Student Life" />
