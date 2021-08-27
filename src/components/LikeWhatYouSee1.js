@@ -4,9 +4,15 @@ const Wrapper = styled.div`
     background-color: #E0E2DC;
     display: flex;
     width: 70%;
-    margin-left: 18rem;
+    margin-right: 2rem;
+    margin-left: auto;
     padding: 2rem;
     margin-top: 2rem;
+
+    @media (max-width: 425px) {
+        margin-right: 0rem;
+        flex-direction: column;
+    }
 `;
 
 const MainText = styled.div`
@@ -15,6 +21,11 @@ const MainText = styled.div`
     font-weight: 600;
     width: 35%;
     font-size: 1.5rem;
+
+    @media (max-width: 425px) {
+        font-size: 1rem;
+        width: fit-content;
+    }
 `;
 
 const Paragraph = styled.div`
@@ -25,6 +36,11 @@ const Paragraph = styled.div`
 
     a {
         color: black;
+    }
+
+    @media (max-width: 425px) {
+        width: fit-content;
+        margin-top: 10px;
     }
 `;
 
