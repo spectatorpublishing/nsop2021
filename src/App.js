@@ -8,6 +8,7 @@ import Section from './components/Section';
 
 const FirstFold = styled.div`
   display: flex;
+  margin-top: -2rem;
 `;
 
 const MainImage = styled.img`
