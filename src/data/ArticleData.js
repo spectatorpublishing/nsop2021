@@ -81,10 +81,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/news/2021/07/29/barnard-breaks-from-columbias-original-guidance-will-continue-mandating-indoor-masking-for-fall-semester/"
         },
         {
-            title: "EDIT ME Fall COVID-19 guidelines",
+            title: "Columbia to welcome back students at full capacity, with reduced masking and testing for vaccinated affiliates",
             author: "Stella Pagkas",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6YLFBZHD6VGVFMO5UGM6SMVEK4.jpg",
+            link: "https://www.columbiaspectator.com/news/2021/08/27/columbia-to-welcome-back-students-at-full-capacity-with-reduced-masking-and-testing-for-vaccinated-affiliates/"
         },
     ],
     "Student Life": [
@@ -101,10 +101,10 @@ export const Articles = {
             link: ""
         },
         {
-            title: "EDIT ME A guide to Dodge Fitness Center",
+            title: "A guide to Dodge Fitness Center",
             author: "Miles Schachner and Rebecca Wachen",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VJSAMMVAJZANZCAM4J4Z6EBCTA.jpeg",
+            link: "https://www.columbiaspectator.com/sports/2021/08/27/a-guide-to-dodge-fitness-center/"
         },
         {
             title: "Decoding the tricky Barnard-Columbia relationship",
@@ -137,10 +137,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/spectrum/2020/07/16/guide-to-columbias-dining-halls/"
         },
         {
-            title: "EDIT ME Here’s how to root for the Columbia athletes who will resume competing this fall",
+            title: "Here’s how to root for the Columbia athletes who will resume competing this fall",
             author: "Matthew Kim and Alex Kwok",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SNCOEQCNJVECXEW2YRNUOLFLZE.JPG",
+            link: "https://www.columbiaspectator.com/sports/2021/08/27/heres-how-to-root-for-the-columbia-athletes-who-will-resume-competing-this-fall/"
         },
         {
             title: "EDIT ME How to join club teams",
@@ -197,28 +197,28 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/spectrum/2018/07/03/things-every-first-year-should-know-before-coming-to-columbia/"
         },
         {
-            title: "EDIT ME Back in full force? What Columbia’s theater scene has in store for you",
+            title: "Back in full force? What Columbia’s theater scene has in store for you",
             author: "Jane Loughman",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ONQM2LVGHBB33JOMBWYBZW6VI4.JPG",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/back-in-full-force-what-columbias-theater-scene-has-in-store-for-you/"
         },
         {
-            title: "EDIT ME Secrets of Columbia University",
+            title: "The top secrets of Columbia University",
             author: "Noah Sheidlower",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NY5OUHG3IJFDTG7E2KIZ2Q3EHU.JPG",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/26/the-top-secrets-of-columbia-university/"
         },
         {
-            title: "EDIT ME Meet Columbia’s NBC ‘College Bowl’ team",
+            title: "Meet Columbia’s NBC ‘College Bowl’ team",
             author: "Bella Druckman",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RN32XV54UZA2DMSRTCGMWFAAF4.jpg",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/26/meet-columbias-nbc-college-bowl-team/"
         },
         {
-            title: "EDIT ME Feature on incoming freshmen who do creative writing",
+            title: "For the class of 2025, a return to the classroom means a revival of artistic",
             author: "Fernanda Aguero",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BXGVD74T7JBWVGDWI7HHSE2UNQ.jpg",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/for-the-class-of-2025-a-return-to-the-classroom-means-a-revival-of-artistic-spirit/"
         },
         {
             title: "EDIT ME Feature on talented incoming student musicians",
@@ -264,16 +264,16 @@ export const Articles = {
             link: ""
         },
         {
-            title: "EDIT ME A student’s guide to theatergoing in New York City during COVID-19",
+            title: "A student’s guide to theatergoing in New York City during COVID-19",
             author: "Sophie Craig",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3KLTUHJ7DVEKRCZ5UONR2Y2ZS4.jpg",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/26/a-students-guide-to-theatergoing-in-new-york-city-during-covid-19/"
         },
         {
-            title: "EDIT ME The best restaurants around Columbia",
+            title: "The best restaurants around Columbia",
             author: "Bella Druckman",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GN7NJRRFGZEQRGPKEBV6QN7PDM.JPG",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/the-best-restaurants-around-columbia/"
         },
         {
             title: "A night out as a Columbia student",
