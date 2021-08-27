@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const NavWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-right: 2rem;
 `;
 

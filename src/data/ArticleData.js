@@ -37,7 +37,7 @@ export const Articles = {
             link: ""
         },
     ],
-    "Covid-19": [
+    "COVID-19": [
         {
             title: "Why Sarah Braka is the best wingwoman",
             author: "Me",

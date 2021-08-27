@@ -11,7 +11,11 @@ const FirstFold = styled.div`
 `;
 
 const MainImage = styled.img`
-  width: 75%;
+  width: 60%;
+`;
+
+const Ad = styled.img`
+  margin: 0 2rem;
 `;
 
 function App() {
@@ -21,21 +25,13 @@ function App() {
         <FirstFold>
           <NavTabs />
           <MainImage src="https://cds-static-hosting.s3.amazonaws.com/NSOP-ILLO.png"></MainImage>
-          {/* <ins class='dcmads' style={{'display':'inline-block', 'width' :'300px', 'height':'600px'}}
-              data-dcm-placement='N46002.2636903COLUMBIASPECTATOR/B25105622.312005458'
-              data-dcm-rendering-mode='script'
-              data-dcm-https-only
-              data-dcm-gdpr-applies='gdpr=${GDPR}'
-              data-dcm-gdpr-consent='gdpr_consent=${GDPR_CONSENT_755}'
-              data-dcm-addtl-consent='addtl_consent=${ADDTL_CONSENT}'
-              data-dcm-ltd='false'
-              data-dcm-resettable-device-id=''
-              data-dcm-app-id=''>
-          </ins> */}
+          <a href="https://212west72.com/the-building?utm_source=ColumbiaSpectator&utm_medium=columbiaspectator&utm_campaign=Columbia%20Spectator%20Banners" target="_blank">
+            <Ad src="https://s0.2mdn.net/10483125/212W72_061521_300x600.gif"></Ad>
+          </a>
         </FirstFold>
         <LikeWhatYouSee1 />
         <Section sectionName="Academics" />
-        <Section sectionName="Covid-19" />
+        <Section sectionName="COVID-19" />
         <Section sectionName="Student Life" />
         <Section sectionName="Explore Housing" />
         <LikeWhatYouSee2/>

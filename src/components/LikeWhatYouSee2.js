@@ -6,9 +6,11 @@ const Wrapper = styled.div`
     font-family: 'Noto Sans', sans-serif;
     padding: 2rem;
     background: #FFFFFF;
+    padding-left: 8rem;
 
     @media (max-width: 768px) {
         flex-direction: column;
+        padding-left: 2rem;
     }
 `;
 
