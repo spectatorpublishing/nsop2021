@@ -36,7 +36,7 @@ function App() {
         <Section sectionName="COVID-19" />
         <CoursesWeLoved />
         <Section sectionName="Student Life" />
-        <Section sectionName="Explore Housing" />
+        <Section sectionName="City" />
         <LikeWhatYouSee2/>
     </div>
   );
