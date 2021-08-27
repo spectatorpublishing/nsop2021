@@ -81,10 +81,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/news/2021/07/29/barnard-breaks-from-columbias-original-guidance-will-continue-mandating-indoor-masking-for-fall-semester/"
         },
         {
-            title: "EDIT ME Fall COVID-19 guidelines",
+            title: "Columbia to welcome back students at full capacity, with reduced masking and testing for vaccinated affiliates",
             author: "Stella Pagkas",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6YLFBZHD6VGVFMO5UGM6SMVEK4.jpg",
+            link: "https://www.columbiaspectator.com/news/2021/08/27/columbia-to-welcome-back-students-at-full-capacity-with-reduced-masking-and-testing-for-vaccinated-affiliates/"
         },
     ],
     "Student Life": [
