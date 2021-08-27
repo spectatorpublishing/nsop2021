@@ -6,6 +6,7 @@ import NavTabs from './components/NavTabs';
 import LikeWhatYouSee1 from './components/LikeWhatYouSee1';
 import Section from './components/Section';
 import CoursesWeLoved from './components/CoursesWeLove';
+import ExploreClubs from './components/ExploreClubs';
 
 const FirstFold = styled.div`
   display: flex;
@@ -36,7 +37,8 @@ function App() {
         <Section sectionName="COVID-19" />
         <CoursesWeLoved />
         <Section sectionName="Student Life" />
-        <Section sectionName="Explore Housing" />
+        <Section sectionName="City" />
+        <ExploreClubs />
         <LikeWhatYouSee2/>
     </div>
   );
