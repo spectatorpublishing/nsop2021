@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import { credits } from '../data/Credits';
 
 const Wrapper = styled.div`
     background-color: #D37462;
@@ -22,7 +23,7 @@ const Direction = styled.div`
 const Text = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: flex;
+    justify-content: center;
     font-family: 'Noto Sans', Calibri, sans-serif;
     font-size: 18px;
     color: white;
@@ -46,6 +47,8 @@ const Text = styled.div`
 
     @media only screen and (max-width: 425px) {
         font-size: 14px;
+        justify-content: flex;
+        flex-direction: column;
     }
 `;
 
@@ -88,14 +91,13 @@ const Box = styled.div`
 const Title = styled.div`
     font-family: 'Noto Sans', Calibri, sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 3rem;
     color: white;
     text-transform: uppercase;
-    text-align: left;
-    padding-left: 2rem;
+    text-align: center;
 
     @media only screen and (max-width: 425px) {
-        font-size: 16px;
+        font-size: 2rem;
     }
 `;
 
@@ -109,101 +111,17 @@ const CreditsList = () => {
     if (width < 800){
         return (
             <Wrapper>
-                <Title>Staff</Title>
                 <Text>
-                <Column>
-                        <Box>
-                            <h2>Corporate Board</h2>
-                            <p>Sarah Braka, <i>Editor in Chief</i></p>
-                            <p>Elizabeth Karpen, <i>Managing Editor</i></p>
-                            <p>Tamarah Wallace, <i>Publisher</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>News</h2>
-                            <p>Dia Gill, <i>Editor</i></p>
-                            <p>Abby Melbourne, <i>Deputy News Editor</i></p>
-                            <p>Stella Padkas, <i>Staff Writer</i></p>
-                            <p>Zachary Schermele, <i>Staff Writer</i></p>
-                            <p>Irie Sentner, <i>Staff Writer</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                        
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>                       
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                        
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
+                    <Title>Staff</Title>
+                    <Column>
+                        {Object.keys(credits).map(section => (
+                            <Box>
+                                <h2>{section}</h2>
+                                {credits[section].map(person => (
+                                    <p>{person.name}, <i>{person.position}</i></p>
+                                ))}
+                            </Box>
+                        ))}
                     </Column>
                 </Text>
             </Wrapper>
@@ -215,101 +133,24 @@ const CreditsList = () => {
                 <Text>
                     <Direction>
                     <Column>
-                        <Box>
-                            <h2>Corporate Board</h2>
-                            <p>Sarah Braka, <i>Editor in Chief</i></p>
-                            <p>Elizabeth Karpen, <i>Managing Editor</i></p>
-                            <p>Tamarah Wallace, <i>Publisher</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-
-                        <Box>
-                            <h2>News</h2>
-                            <p>Dia Gill, <i>Editor</i></p>
-                            <p>Abby Melbourne, <i>Deputy News Editor</i></p>
-                            <p>Stella Padkas, <i>Staff Writer</i></p>
-                            <p>Zachary Schermele, <i>Staff Writer</i></p>
-                            <p>Irie Sentner, <i>Staff Writer</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                        
-                        </Box>                    
+                        {["Corporate Board", "News", "Opinion", "Copy", "Graphics", "Photo", "Product Design", "Newsroom Development"].map(section => (
+                            <Box>
+                                <h2>{section}</h2>
+                                {credits[section].map(person => (
+                                    <p>{person.name}, <i>{person.position}</i></p>
+                                ))}
+                            </Box>
+                        ))}
                     </Column>
                     <Column>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                        
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
+                        {["Sports", "A&E", "Illustrations", "Podcasts", "Spectrum", "Engagement", "Engineering", "Revenue"].map(section => (
+                            <Box>
+                                <h2>{section}</h2>
+                                {credits[section].map(person => (
+                                    <p>{person.name}, <i>{person.position}</i></p>
+                                ))}
+                            </Box>
+                        ))}
                     </Column>
                     </Direction>
                 </Text>
@@ -322,102 +163,34 @@ const CreditsList = () => {
                 <Text>
                     <Direction>
                     <Column>
-                        <Box>
-                            <h2>Corporate Board</h2>
-                            <p>Sarah Braka, <i>Editor in Chief</i></p>
-                            <p>Elizabeth Karpen, <i>Managing Editor</i></p>
-                            <p>Tamarah Wallace, <i>Publisher</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
+                        {["Corporate Board", "News", "Copy", "Graphics", "Photo"].map(section => (
+                            <Box>
+                                <h2>{section}</h2>
+                                {credits[section].map(person => (
+                                    <p>{person.name}, <i>{person.position}</i></p>
+                                ))}
+                            </Box>
+                        ))}
                     </Column>
                     <Column>
-                        <Box>
-                            <h2>News</h2>
-                            <p>Dia Gill, <i>Editor</i></p>
-                            <p>Abby Melbourne, <i>Deputy News Editor</i></p>
-                            <p>Stella Padkas, <i>Staff Writer</i></p>
-                            <p>Zachary Schermele, <i>Staff Writer</i></p>
-                            <p>Irie Sentner, <i>Staff Writer</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                        
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
+                        {["Sports", "A&E", "Illustrations", "Podcasts", "Engagement"].map(section => (
+                            <Box>
+                                <h2>{section}</h2>
+                                {credits[section].map(person => (
+                                    <p>{person.name}, <i>{person.position}</i></p>
+                                ))}
+                            </Box>
+                        ))}
                     </Column>
-                    <Column>                        
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                        
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>                            
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
-                        <Box>
-                            <h2>Section Name</h2>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                            <p>Name Lastname, <i>Position Position</i></p>
-                        </Box>
+                    <Column>
+                        {["Engagement", "Engineering", "Opinion", "Product Design", "Newsroom Development", "Revenue", "Spectrum"].map(section => (
+                            <Box>
+                                <h2>{section}</h2>
+                                {credits[section].map(person => (
+                                    <p>{person.name}, <i>{person.position}</i></p>
+                                ))}
+                            </Box>
+                        ))}
                     </Column>
                     </Direction>
                 </Text>

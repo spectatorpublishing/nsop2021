@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components';
+import { device } from '../device';
 
 
 export default function SectionHeader({ title, leftSvg, rightSvg }) {
@@ -30,7 +31,7 @@ export default function SectionHeader({ title, leftSvg, rightSvg }) {
 const Header = styled.h2`
     font-family: 'Noto Sans', sans-serif;
     margin: 0 1em;
-    transform: translateY(calc(-1 * (100% - ${props => props.svgHeight}px) * 0.5))
+    transform: translateY(calc(-1 * (100% - ${props => props.svgHeight}px) * 0.5));
 `;
 
 const WrapLogo = styled.div`
@@ -40,4 +41,10 @@ const WrapLogo = styled.div`
 
 const LeftSVG = styled.img``;
 
-const RightSVG = styled.img``;
+const RightSVG = styled.img`
+    display: none;
+    
+    @media ${device.tablet} {
+        display: block;
+    }
+`;

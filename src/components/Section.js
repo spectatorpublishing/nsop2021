@@ -5,17 +5,23 @@ import { Articles } from '../data/ArticleData';
 import { device } from '../device';
 
 const Wrapper = styled.div`
-    margin: 1rem;
+    margin-top: 3rem;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         margin: 8rem 0;
+        margin-bottom: 0;
     }
 `;
 
 const ArticleWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
-    margin: 0rem 5rem;
+    margin: 0rem 1rem;
+
+    @media ${device.tablet} {
+        margin: 0rem 5rem;
+        margin-top: -3rem;
+    }
 `;
 
 const defaultSectionHeaderSvg = [
@@ -25,7 +31,7 @@ const defaultSectionHeaderSvg = [
 
 const Section = ({sectionName}) => {
     return (
-        <Wrapper id={sectionName.toLowerCase()}>
+        <Wrapper id={sectionName.toLowerCase().split(" ").join("-")}>
            <SectionHeader
                 title={sectionName}
                 leftSvg={defaultSectionHeaderSvg[0]}

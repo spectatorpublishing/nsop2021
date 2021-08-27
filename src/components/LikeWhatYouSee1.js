@@ -39,7 +39,7 @@ const MainText = styled.div`
 const Lines = styled.img`
     display: none;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         display: block;
     }
 `;

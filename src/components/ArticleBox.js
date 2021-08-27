@@ -9,7 +9,7 @@ const Wrap = styled.a`
     color: black;
     text-decoration: none;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         width: 27.5%;
         margin: 2rem;
     }

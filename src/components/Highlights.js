@@ -33,7 +33,7 @@ const BigWrap = styled.div`
     align-items: center;
     flex-direction: column-reverse;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         flex-direction: row;
     }
 `;
@@ -50,12 +50,14 @@ const Ad = styled.img`
 `;
 
 const TextFilled = styled.h2`
+    cursor: pointer;
     background: #FFFFFF;
     padding: 1rem;
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     margin: auto 0rem auto 0rem;
+    font-size: 2rem;
 
     @media (max-width: 1024px) {
         font-size: 1rem;
@@ -69,6 +71,10 @@ const TextFilled = styled.h2`
     @media (max-width: 375px) {
         font-size: 0.5rem;
         padding: 0.5rem;
+    }
+
+    :hover {
+        background: lightgrey;
     }
 `;
 

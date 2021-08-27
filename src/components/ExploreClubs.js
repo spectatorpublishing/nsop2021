@@ -8,6 +8,7 @@ const Wrapper = styled.div`
     margin: 3rem;
     height: fit-content;
     border-radius: 5px;
+    align-items: center;
 
     a {
         text-decoration: none;
@@ -18,7 +19,6 @@ const Wrapper = styled.div`
         width: 20rem;
         margin-right: 0rem;
         flex-direction: column;
-        align-items: center;
     }
 `;
 
@@ -27,7 +27,7 @@ const BigWrap = styled.div`
     align-items: center;
     flex-direction: column-reverse;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         flex-direction: row;
     }
 `;
@@ -39,7 +39,7 @@ const Ad = styled.img`
 const Paragraph = styled.div`
     font-family: 'Amiko', sans-serif;
     width: 80%;
-    font-size: 0.875rem;
+    font-size: 1.5rem;
 
     a {
         color: black;
@@ -48,6 +48,7 @@ const Paragraph = styled.div`
     @media (max-width: 425px) {
         width: fit-content;
         margin-top: 10px;
+        font-size: 1rem;
     }
 `;
 
@@ -64,9 +65,12 @@ const ClubsButton = styled.div`
     font-weight: 600;
     align-self: center;
     box-sizing: border-box;
+    font-size: 1.5rem;
 
     @media (max-width: 425px) {
         margin-top: 1.5rem;
+        font-size: 1rem;
+        margin-left: 0;
     }
 `;
 

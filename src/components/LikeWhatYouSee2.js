@@ -13,13 +13,12 @@ const Wrapper = styled.div`
     background: #FFFFFF;
     padding-left: 8rem;
     position: relative;
-    margin-top: -1rem;
+    margin-top: -4rem;
 
     @media (max-width: 768px) {
         flex-direction: column;
         padding-left: 2rem;
         margin-top: 0;
-        margin-bottom: 1rem;
     }
 `;
 
@@ -67,6 +66,11 @@ const Header = styled.h2`
     text-transform: uppercase;
 `;
 
+const InnerCredits = styled.span`
+    font-weight: 400;
+    text-transform: capitalize;
+`;
+
 const Header1 = styled.div`
     display: flex;
     font-weight: 600;
@@ -74,12 +78,12 @@ const Header1 = styled.div`
     margin-block-end: 0;
     text-transform: uppercase;
     margin-top: 2rem;
-    margin-bottom: 0;
+    padding-bottom: 1rem;
     margin-block-end: 0;
     font-size: 1.5rem;
-    padding-left: 25%;
+    padding-left: 1rem;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         margin-bottom: -1rem;
         padding-left: 40%;
 
@@ -94,24 +98,25 @@ const Text = styled.p`
 const LeftSVG = styled.img`
     display: none;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         display: block;
     }
 `;
 
 const RightSVG = styled.img`
-    margin-top: -9rem;
-    display: none;
+    margin-top: 0rem;
 
-    @media ${device.mobile} {
-        display: block;
+    @media ${device.tablet} {
+        margin-top: -8.5rem;
     }
 `;
 
 const HeaderText = styled.div`
     margin: 0;
+    padding-right: 0.5rem;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
+        padding-right: 0;
         margin: 0 2rem;
         margin-top: -0.6rem;
     }
@@ -132,14 +137,14 @@ const LikeWhatYouSee2 = () => {
                         <Text>This website was created entirely by our tech and product design teams here at Spectator.</Text>
                         <Text>Curious to see how it's done? Interested in doing this work yourself?</Text>
                     </SubContent>
-                    <a href="http://www.specpublishing.com/join">
+                    <a href="http://www.specpublishing.com/join" target="_blank">
                         <JoinButton>Join Spec</JoinButton>
                     </a>
                 </Content>
                 <Credits>
-                    <Header>Cover Art By:</Header>
-                    <Header>Website Design By:</Header>
-                    <Header>Developers:</Header>
+                    <Header>Cover Art By: <InnerCredits>Noelle Hunter</InnerCredits></Header>
+                    <Header>Website Design By: <InnerCredits>Christina Su and Cindy Espinosa</InnerCredits></Header>
+                    <Header>Developers: <InnerCredits>Erin McNulty, Laura Castro Venegas, Francesca Cavuoti, Yu-Chen Huang, and Yunlan Li</InnerCredits></Header>
                 </Credits>
             </Wrapper>
         </BigWrap>

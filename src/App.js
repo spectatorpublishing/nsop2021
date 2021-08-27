@@ -7,6 +7,7 @@ import LikeWhatYouSee1 from './components/LikeWhatYouSee1';
 import Section from './components/Section';
 import CoursesWeLoved from './components/Highlights';
 import ExploreClubs from './components/ExploreClubs';
+import StaffCredits from './components/StaffCredits';
 import { device } from './device';
 
 const FirstFold = styled.div`
@@ -14,15 +15,16 @@ const FirstFold = styled.div`
   margin-top: -2rem;
   flex-direction: column-reverse;
 
-  @media ${device.mobile} {
+  @media ${device.tablet} {
     flex-direction: row;
+    align-items: flex-start;
   }
 `;
 
 const MainImage = styled.img`
   width: 100%;
 
-  @media ${device.mobile} {
+  @media ${device.tablet} {
     width: 60%;
   }
 `;
@@ -31,7 +33,7 @@ const Ad = styled.img`
   margin: 0 2rem;
   display: none;
 
-  @media ${device.mobile} {
+  @media ${device.tablet} {
     display: block;
   }
 `;
@@ -55,6 +57,7 @@ function App() {
         <Section sectionName="City" />
         <ExploreClubs />
         <LikeWhatYouSee2/>
+        <StaffCredits />
     </div>
   );
 }

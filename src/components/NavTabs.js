@@ -8,10 +8,9 @@ const NavWrapper = styled.div`
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 2rem;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         flex-direction: column;
     }
 `;
@@ -24,7 +23,7 @@ const Link = styled.a`
     color: black;
     font-weight: 500;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         margin: 0.5rem 0;
     }
 `;
@@ -39,7 +38,7 @@ const ExploreButton = styled.a`
     width: fit-content;
     font-weight: 600;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         margin: 0.5rem 0;
     }
 `;
@@ -54,7 +53,7 @@ const JoinButton = styled.a`
     color: white;
     font-weight: 600;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         margin: 0.5rem 0;
     }
 `;

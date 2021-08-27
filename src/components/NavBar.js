@@ -6,7 +6,7 @@ const Wrapper = styled.div`
     justify-content: space-between;
     flex-direction: column-reverse;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         flex-direction: row;
     }
 `;
@@ -19,7 +19,7 @@ const Header = styled.div`
     margin-top: 0;
     font-size: 1.75rem;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         font-size: 2.5rem;
         margin: 2rem;
     }
@@ -30,7 +30,7 @@ const SubHeader = styled.div`
     margin-top: 0;
     padding-left: 2rem;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         margin-top: -6rem;
     }
 `;
@@ -39,7 +39,7 @@ const Logo = styled.img`
     float: right;
     width: 85vw;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         width: 15rem;
     }
 `;
@@ -52,7 +52,7 @@ const LeftSVG = styled.img`
     margin-top: -5rem;
     display: none;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         display: block
     }
 `;
@@ -61,7 +61,7 @@ const RightSVG = styled.img`
     margin-top: 3.5rem;
     display: none;
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         display: block;
     }
 `;
@@ -74,7 +74,7 @@ const MainImage = styled.img`
   width: 60%;
   display: none;
 
-  @media ${device.mobile} {
+  @media ${device.tablet} {
     display: block;
   }
 `;
