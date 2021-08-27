@@ -256,42 +256,90 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/required-reading/2017/03/31/culminating-community-get-to-know-columbias-biggest-campus-events/"
         },
     ],
-    "Explore Housing": [
+    "City": [
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "EDIT ME After a year without students, restaurants around Columbia prepare for their return",
+            author: "Irene Madrigal",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "EDIT ME A student’s guide to theatergoing in New York City during COVID-19",
+            author: "Sophie Craig",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "EDIT ME The best restaurants around Columbia",
+            author: "Bella Druckman",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "A night out as a Columbia student",
+            author: "Ariana Novo and Jane Mok",
+            imgLink: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RTCKJMVTPRGXHNCDC6AWU7X2D4",
+            link: "https://www.columbiaspectator.com/spectrum/2020/04/17/a-night-out-as-a-columbia-student/"
+        },
+        {
+            title: "Places around MoHi to buy room necessities",
+            author: "Ariana Novo",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QQASN3LY7FCJFMT2AZEEUHCB3Y.JPG",
+            link: "https://www.columbiaspectator.com/spectrum/2020/08/27/places-around-mohi-to-buy-room-necessities/"
+        },
+        {
+            title: "An ale-inclusive look into Columbia’s campus bar scene",
+            author: "Noah Sheidlower",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LRU3SMOEDRHJRP5AYPBYNIOF5Q.png",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/20/an-ale-inclusive-look-into-columbias-campus-bar-scene/"
+        },
+        {
+            title: "EDIT ME Columbia Crash Course: Being vocal about eating local",
+            author: "Bella Druckman",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
+            title: "EDIT ME Coming to Columbia: Pizza",
+            author: "Samuel Hyman",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
         {
-            title: "Why Sarah Braka is the best wingwoman",
-            author: "Me",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            title: "Women-owned restaurants in MoHi",
+            author: "Ariana Novo and Tonycia Coe",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ME576RF2CBCATJROBSIX5JD7WA.jpg",
+            link: "https://www.columbiaspectator.com/spectrum/2021/03/08/women-owned-restaurants-in-mohi/"
+        },
+        {
+            title: "Ways to save in New York",
+            author: "Ariana Novo",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VNNQAQCNXJDYRMJ7MUJSENI4EQ.jpg",
+            link: "https://www.columbiaspectator.com/spectrum/2020/01/31/ways-to-save-in-new-york/"
+        },
+        {
+            title: "Budgeting tips and student deals around Columbia’s campus",
+            author: "Haleigh Stewart and Maya Sulkin",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HZLRB23PZBCDRCUNIORABUDWP4.jpg",
+            link: "https://www.columbiaspectator.com/spectrum/2020/11/09/budgeting-tips-and-student-deals-around-columbias-campus/"
+        },
+        {
+            title: "Your guide to New York City on a student budget",
+            author: "Jazilah Salam",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MJA6EXXXS5GRLBBYVU4J26RTUQ.jpg",
+            link: "https://www.columbiaspectator.com/spectrum/2019/05/21/your-guide-to-nyc-on-a-student-budget/"
+        },
+        {
+            title: "A guide to Morningside Heights as a Columbia student",
+            author: "Lina Bennani Karim",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/23SKMVUBCBH37ONRJ3G7OUBNJI.jpg",
+            link: "https://www.columbiaspectator.com/spectrum/2020/04/22/a-guide-to-morningside-heights-as-a-columbia-student/"
+        },
+        {
+            title: "Which MoHi coffee shop should you frequent?",
+            author: "Jane Mok",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5TCBLLU22FHFPO5SB7JLLEEOVE.jpeg",
+            link: "https://www.columbiaspectator.com/spectrum/2019/10/04/which-mohi-coffee-shop-should-you-frequent/"
         },
     ],
 };
