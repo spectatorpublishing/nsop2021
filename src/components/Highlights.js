@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../device';
 
 const Highlights = () => {
     return (
@@ -30,6 +31,11 @@ export default Highlights;
 const BigWrap = styled.div`
     display: flex;
     align-items: center;
+    flex-direction: column-reverse;
+
+    @media ${device.mobile} {
+        flex-direction: row;
+    }
 `;
 
 const Wrapper = styled.div`

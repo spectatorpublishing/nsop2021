@@ -1,12 +1,18 @@
 import styled from  'styled-components';
+import { device } from '../device';
 
 const Wrap = styled.a`
     background-color: white;
-    width: 27.5%;
+    width: 40rem;
     border-radius: 5px;
-    margin: 2rem;
+    margin: 1rem;
     color: black;
     text-decoration: none;
+
+    @media ${device.mobile} {
+        width: 27.5%;
+        margin: 2rem;
+    }
 `;
 
 const Image = styled.img`

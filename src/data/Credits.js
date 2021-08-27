@@ -1,4 +1,4 @@
-const credits = {
+export const credits = {
     "Corporate Board": [
         {
             "name": "Sarah Braka",

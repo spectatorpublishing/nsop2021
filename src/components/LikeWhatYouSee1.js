@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { device } from '../device';
+
 
 const BigWrap = styled.div`
     display: flex;
@@ -14,8 +16,8 @@ const Wrapper = styled.div`
     margin-top: 4rem;
     height: fit-content;
 
-
     @media (max-width: 425px) {
+        margin-left: 0;
         margin-right: 0rem;
         flex-direction: column;
     }
@@ -34,7 +36,13 @@ const MainText = styled.div`
     }
 `;
 
-const Lines = styled.img``;
+const Lines = styled.img`
+    display: none;
+
+    @media ${device.mobile} {
+        display: block;
+    }
+`;
 
 const Paragraph = styled.div`
     font-family: 'Amiko', sans-serif;

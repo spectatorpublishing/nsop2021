@@ -7,18 +7,33 @@ import LikeWhatYouSee1 from './components/LikeWhatYouSee1';
 import Section from './components/Section';
 import CoursesWeLoved from './components/Highlights';
 import ExploreClubs from './components/ExploreClubs';
+import { device } from './device';
 
 const FirstFold = styled.div`
   display: flex;
   margin-top: -2rem;
+  flex-direction: column-reverse;
+
+  @media ${device.mobile} {
+    flex-direction: row;
+  }
 `;
 
 const MainImage = styled.img`
-  width: 60%;
+  width: 100%;
+
+  @media ${device.mobile} {
+    width: 60%;
+  }
 `;
 
 const Ad = styled.img`
   margin: 0 2rem;
+  display: none;
+
+  @media ${device.mobile} {
+    display: block;
+  }
 `;
 
 function App() {

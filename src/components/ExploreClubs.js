@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../device';
 
 const Wrapper = styled.div`
     background-color: #E0E2DC;
@@ -13,18 +14,26 @@ const Wrapper = styled.div`
     }
 
     @media (max-width: 425px) {
+        margin: 0;
+        width: 20rem;
         margin-right: 0rem;
         flex-direction: column;
+        align-items: center;
     }
 `;
 
 const BigWrap = styled.div`
     display: flex;
     align-items: center;
+    flex-direction: column-reverse;
+
+    @media ${device.mobile} {
+        flex-direction: row;
+    }
 `;
 
 const Ad = styled.img`
-  margin: 0 2rem;
+  margin: 2rem;
 `;
 
 const Paragraph = styled.div`
@@ -55,6 +64,10 @@ const ClubsButton = styled.div`
     font-weight: 600;
     align-self: center;
     box-sizing: border-box;
+
+    @media (max-width: 425px) {
+        margin-top: 1.5rem;
+    }
 `;
 
 const ExploreClubs = () => {

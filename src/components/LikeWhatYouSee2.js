@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import { device } from '../device';
 
 const BigWrap = styled.div`
-
+    margin-top: 3rem;
 `;
 
 const Wrapper = styled.div`
@@ -12,10 +13,13 @@ const Wrapper = styled.div`
     background: #FFFFFF;
     padding-left: 8rem;
     position: relative;
+    margin-top: -1rem;
 
     @media (max-width: 768px) {
         flex-direction: column;
         padding-left: 2rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
     }
 `;
 
@@ -58,10 +62,28 @@ const JoinButton = styled.div`
 const Header = styled.h2`
     font-weight: 600;
     margin-top: 2rem;
-    margin-bottom: -1rem;
+    margin-bottom: 0;
     margin-block-end: 0;
     text-transform: uppercase;
+`;
+
+const Header1 = styled.div`
     display: flex;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-block-end: 0;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    margin-block-end: 0;
+    font-size: 1.5rem;
+    padding-left: 25%;
+
+    @media ${device.mobile} {
+        margin-bottom: -1rem;
+        padding-left: 40%;
+
+    }
 `;
 
 const Text = styled.p`
@@ -70,25 +92,39 @@ const Text = styled.p`
 `;
 
 const LeftSVG = styled.img`
+    display: none;
+
+    @media ${device.mobile} {
+        display: block;
+    }
 `;
 
 const RightSVG = styled.img`
     margin-top: -9rem;
+    display: none;
+
+    @media ${device.mobile} {
+        display: block;
+    }
 `;
 
 const HeaderText = styled.div`
-    margin: 0 2rem;
-    margin-top: -0.6rem;
+    margin: 0;
+
+    @media ${device.mobile} {
+        margin: 0 2rem;
+        margin-top: -0.6rem;
+    }
 `;
 
 const LikeWhatYouSee2 = () => {
     return (
         <BigWrap>
-            <Header>
+            <Header1>
                 <LeftSVG src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Spectator+Staff+-+Left.svg"></LeftSVG>
                 <HeaderText>Spectator Staff</HeaderText>
                 <RightSVG src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Spectator+Staff+-+Right.svg"></RightSVG>
-            </Header>
+            </Header1>
             <Wrapper>
                 <Content>
                     <Header>Like what you see?</Header>

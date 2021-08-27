@@ -2,9 +2,14 @@ import styled from 'styled-components';
 import Header from './SectionHeader';
 import ArticleBox from './ArticleBox';
 import { Articles } from '../data/ArticleData';
+import { device } from '../device';
 
 const Wrapper = styled.div`
-    margin: 3rem 5rem;
+    margin: 1rem;
+
+    @media ${device.mobile} {
+        margin: 3rem 5rem;
+    }
 `;
 
 const ArticleWrapper = styled.div`
