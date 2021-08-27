@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+const BigWrap = styled.div`
+
+`;
+
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
@@ -7,6 +11,7 @@ const Wrapper = styled.div`
     padding: 2rem;
     background: #FFFFFF;
     padding-left: 8rem;
+    position: relative;
 
     @media (max-width: 768px) {
         flex-direction: column;
@@ -52,9 +57,11 @@ const JoinButton = styled.div`
 
 const Header = styled.h2`
     font-weight: 600;
-    margin-top: 0rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    margin-block-end: 0;
     text-transform: uppercase;
+    display: flex;
 `;
 
 const Text = styled.p`
@@ -62,25 +69,44 @@ const Text = styled.p`
     font-size: 0.875rem;
 `;
 
+const LeftSVG = styled.img`
+`;
+
+const RightSVG = styled.img`
+    margin-top: -9rem;
+`;
+
+const HeaderText = styled.div`
+    margin: 0 2rem;
+    margin-top: -0.6rem;
+`;
+
 const LikeWhatYouSee2 = () => {
     return (
-        <Wrapper>
-            <Content>
-                <Header>Like what you see?</Header>
-                <SubContent>
-                    <Text>This website was created entirely by our tech and product design teams here at Spectator.</Text>
-                    <Text>Curious to see how it's done? Interested in doing this work yourself?</Text>
-                </SubContent>
-                <a href="http://www.specpublishing.com/join">
-                    <JoinButton>Join Spec</JoinButton>
-                </a>
-            </Content>
-            <Credits>
-                <Header>Cover Art By:</Header>
-                <Header>Website Design By:</Header>
-                <Header>Developers:</Header>
-            </Credits>
-        </Wrapper>
+        <BigWrap>
+            <Header>
+                <LeftSVG src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Spectator+Staff+-+Left.svg"></LeftSVG>
+                <HeaderText>Spectator Staff</HeaderText>
+                <RightSVG src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Spectator+Staff+-+Right.svg"></RightSVG>
+            </Header>
+            <Wrapper>
+                <Content>
+                    <Header>Like what you see?</Header>
+                    <SubContent>
+                        <Text>This website was created entirely by our tech and product design teams here at Spectator.</Text>
+                        <Text>Curious to see how it's done? Interested in doing this work yourself?</Text>
+                    </SubContent>
+                    <a href="http://www.specpublishing.com/join">
+                        <JoinButton>Join Spec</JoinButton>
+                    </a>
+                </Content>
+                <Credits>
+                    <Header>Cover Art By:</Header>
+                    <Header>Website Design By:</Header>
+                    <Header>Developers:</Header>
+                </Credits>
+            </Wrapper>
+        </BigWrap>
     )
 };
 

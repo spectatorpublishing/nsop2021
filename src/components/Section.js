@@ -20,8 +20,8 @@ const defaultSectionHeaderSvg = [
 
 const Section = ({sectionName}) => {
     return (
-        <Wrapper>
-            <SectionHeader
+        <Wrapper id={sectionName.toLowerCase()}>
+           <SectionHeader
                 title={sectionName}
                 leftSvg={defaultSectionHeaderSvg[0]}
                 rightSvg={defaultSectionHeaderSvg[1]}

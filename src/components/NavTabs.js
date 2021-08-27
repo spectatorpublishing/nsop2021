@@ -42,12 +42,12 @@ const NavTabs = () => {
     return (
         <NavWrapper>
             <Link href="#">Home</Link>
-            <Link href="#">Academics</Link>
-            <Link href="#">Covid-19</Link>
-            <Link href="#">Student Life</Link>
-            <Link href="#">Explore Housing</Link>
-            <ExploreButton href="#">Explore Clubs</ExploreButton>
-            <JoinButton href="#">Join Spec</JoinButton>
+            <Link href="#covid-19">Covid-19</Link>
+            <Link href="#student-life">Student Life</Link>
+            <Link href="#academics">Academics</Link>
+            <Link href="#city">City</Link>
+            <ExploreButton href="https://lionclubs.info/" target="_blank">Explore Clubs</ExploreButton>
+            <JoinButton href="http://www.specpublishing.com/join" target="_blank">Join Spec</JoinButton>
         </NavWrapper>
     )
 }

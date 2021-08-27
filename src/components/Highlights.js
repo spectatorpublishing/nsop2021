@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-const CoursesWeLoved = () => {
+const Highlights = () => {
     return (
         <BigWrap>
             <Wrapper>
                 <TopRow>
                     <TopLeft src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Course+We+Loved+-+Top+Left.svg"></TopLeft>
-                    <TextFilled>Courses We Loved</TextFilled>
+                    <TextFilled>116 Traditions</TextFilled>
                     <TopRight src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Top+Right.svg"></TopRight>
                 </TopRow>
                 <Center src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Center.svg"></Center>
@@ -18,12 +18,14 @@ const CoursesWeLoved = () => {
                     </div>
                 </BottomRow>
             </Wrapper>
-            <Ad src="https://cds-static-hosting.s3.amazonaws.com/Columbia_Orens-300x600.jpg" />
+            <a href="https://orenscoffee.com/">
+                <Ad src="https://cds-static-hosting.s3.amazonaws.com/Columbia_Orens-300x600.jpg" />
+            </a>
         </BigWrap>
     )
 };
 
-export default CoursesWeLoved;
+export default Highlights;
 
 const BigWrap = styled.div`
     display: flex;
