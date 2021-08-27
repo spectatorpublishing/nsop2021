@@ -341,7 +341,7 @@ const credits = {
             "position": "Deputy Newsroom Developer"
         }
     ],
-    "Newsroom Development": [
+    "Revenue": [
         {
             "name": "Joy Fan",
             "position": "Revenue Director"
