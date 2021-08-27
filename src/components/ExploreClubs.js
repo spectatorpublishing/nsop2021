@@ -1,10 +1,5 @@
 import styled from 'styled-components';
 
-const BigWrap = styled.div`
-    display: flex;
-    margin-top: -1rem;
-`;
-
 const Wrapper = styled.div`
     background-color: #E0E2DC;
     display: flex;
@@ -41,32 +36,31 @@ const Paragraph = styled.div`
 const ClubsButton = styled.div`
     background: #D37462;
     padding: 0.7rem;
+    margin-left: 2rem;
     border-radius: 5px;
     color: #FFFFFF;
     width: fit-content;
     height: fit-content;
-    margin: 0;
     text-transform: uppercase;
     font-weight: 600;
-    justify-self: end;
+    align-self: center;
+    box-sizing: border-box;
 `;
 
 const ExploreClubs = () => {
     return (
-        <BigWrap>
-            <Wrapper>
-                <Paragraph>
-                Have a hobby? Want to continue pursuing a passion? Looking for 
-                a specific group or activity? We have you covered! Find clubs 
-                and student organizations that interest you through LionClubs, 
-                Spectator’s newest platform created by our own product and 
-                engineering teams.
-                </Paragraph>
-                <a href="http://www.lionclubs.info">
-                    <ClubsButton>Visit LionClubs</ClubsButton>
-                </a>
-            </Wrapper>
-        </BigWrap>
+        <Wrapper>
+            <Paragraph>
+            Have a hobby? Want to continue pursuing a passion? Looking for 
+            a specific group or activity? We have you covered! Find clubs 
+            and student organizations that interest you through LionClubs, 
+            Spectator’s newest platform created by our own product and 
+            engineering teams.
+            </Paragraph>
+            <a href="http://www.lionclubs.info">
+                <ClubsButton>Visit LionClubs</ClubsButton>
+            </a>
+        </Wrapper>
     )
 };
 
