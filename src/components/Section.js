@@ -14,7 +14,7 @@ const ArticleWrapper = styled.div`
 
 const Section = ({sectionName}) => {
     return (
-        <Wrapper>
+        <Wrapper id={sectionName.toLowerCase()}>
             <Header title={sectionName} />
             <ArticleWrapper>
                 {
