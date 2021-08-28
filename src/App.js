@@ -9,7 +9,6 @@ import CoursesWeLoved from './components/Highlights';
 import ExploreClubs from './components/ExploreClubs';
 import StaffCredits from './components/StaffCredits';
 import { device } from './device';
-// import CampusMap from './components/CampusMap';
 
 const FirstFold = styled.div`
   display: flex;
