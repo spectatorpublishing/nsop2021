@@ -252,13 +252,13 @@ export const Articles = {
         },
         {
             title: "Cultivating community: Get to know Columbia’s biggest campus events",
-            author: "Jorge Hernandez",
+            author: "Mariella Evangelista",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AMEIO4C22JCPRH4P7E2CY7RMB4",
             link: "https://www.columbiaspectator.com/required-reading/2017/03/31/culminating-community-get-to-know-columbias-biggest-campus-events/"
         },
         {
             title: "From player to head coach: DeSandis, CC ’13, to make her debut season",
-            author: "Mariella Evangelista",
+            author: "Jorge Hernandez",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T5EX5NI6T5EMDDGKXXWSSDZMNU.jpg",
             link: "https://www.columbiaspectator.com/main/2021/08/27/from-player-to-head-coach-desandis-cc-13-to-make-her-debut-season/"
         },
