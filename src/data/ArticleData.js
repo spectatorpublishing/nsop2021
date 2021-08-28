@@ -107,6 +107,12 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/sports/2021/08/27/a-guide-to-dodge-fitness-center/"
         },
         {
+            title: "116 Columbia traditions",
+            author: "Columbia Daily Spectator staff",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RTZCJYYI7VB6BIBKSG27C5JH4Q.png",
+            link: "https://www.columbiaspectator.com/spectrum/2021/08/28/116-columbia-traditions/"
+        },
+        {
             title: "A decade in athletics: Tracey Bartholomew is leading women’s soccer out of the night",
             author: "Adam Lang",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PW6CZURNB5BOPCXFJTGEZUINMA.png",
