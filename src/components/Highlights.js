@@ -7,7 +7,7 @@ const Highlights = () => {
             <Wrapper>
                 <TopRow>
                     <TopLeft src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Course+We+Loved+-+Top+Left.svg"></TopLeft>
-                    <TextFilled>116 Traditions</TextFilled>
+                    <TextFilled><a href="https://www.columbiaspectator.com/spectrum/2021/08/28/116-columbia-traditions/" target="_blank">116 Traditions</a></TextFilled>
                     <TopRight src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Top+Right.svg"></TopRight>
                 </TopRow>
                 <Center src="https://cds-static-hosting.s3.amazonaws.com/nsop2021svgs/Courses+We+Loved+-+Center.svg"></Center>
@@ -75,6 +75,11 @@ const TextFilled = styled.h2`
 
     :hover {
         background: lightgrey;
+    }
+
+    a {
+        color: black;
+        text-decoration: none !important;
     }
 `;
 

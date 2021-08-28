@@ -17,6 +17,9 @@ const Wrap = styled.a`
 
 const Image = styled.img`
     width: 100%;
+    max-height: 15rem;
+    overflow: hidden;
+    object-fit: cover;
 `;
 
 const Title = styled.div`

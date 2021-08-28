@@ -63,12 +63,10 @@ const Header = styled.h2`
     margin-top: 2rem;
     margin-bottom: 0;
     margin-block-end: 0;
-    text-transform: uppercase;
 `;
 
 const InnerCredits = styled.span`
     font-weight: 400;
-    text-transform: capitalize;
 `;
 
 const Header1 = styled.div`
@@ -142,9 +140,9 @@ const LikeWhatYouSee2 = () => {
                     </a>
                 </Content>
                 <Credits>
-                    <Header>Cover Art By: <InnerCredits>Noelle Hunter</InnerCredits></Header>
-                    <Header>Website Design By: <InnerCredits>Christina Su, Aaron McKeever, and Cindy Espinosa</InnerCredits></Header>
-                    <Header>Developers: <InnerCredits>Erin McNulty, Laura Castro Venegas, Francesca Cavuoti, Yu-Chen Huang, and Yunlan Li</InnerCredits></Header>
+                    <Header>COVER ART BY: <InnerCredits>Noelle Hunter</InnerCredits></Header>
+                    <Header>WEBSITE DESIGN BY: <InnerCredits>Christina Su, Aaron McKeever, and Cindy Espinosa</InnerCredits></Header>
+                    <Header>DEVELOPERS: <InnerCredits>Erin McNulty, Laura Castro Venegas, Francesca Cavuoti, Yu-Chen Huang, and Yunlan Li</InnerCredits></Header>
                 </Credits>
             </Wrapper>
         </BigWrap>
