@@ -88,12 +88,12 @@ export const Articles = {
         },
     ],
     "Student Life": [
-        {
+        /*{
             title: "EDIT ME Data explainer focusing on c/o 2024 and 2025",
             author: "Elizabeth Commisso",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
-        },
+        },*/
          {
             title: "The class of 2025 is the most selective in Columbia’s history. Was the admissions process more equitable?",
             author: "Irie Sentner",
@@ -105,6 +105,12 @@ export const Articles = {
             author: "Miles Schachner and Rebecca Wachen",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VJSAMMVAJZANZCAM4J4Z6EBCTA.jpeg",
             link: "https://www.columbiaspectator.com/sports/2021/08/27/a-guide-to-dodge-fitness-center/"
+        },
+        {
+            title: "116 Columbia traditions",
+            author: "Columbia Daily Spectator staff",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RTZCJYYI7VB6BIBKSG27C5JH4Q.png",
+            link: "https://www.columbiaspectator.com/spectrum/2021/08/28/116-columbia-traditions/"
         },
         {
             title: "A decade in athletics: Tracey Bartholomew is leading women’s soccer out of the night",
@@ -252,13 +258,13 @@ export const Articles = {
         },
         {
             title: "Cultivating community: Get to know Columbia’s biggest campus events",
-            author: "Jorge Hernandez",
+            author: "Mariella Evangelista",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AMEIO4C22JCPRH4P7E2CY7RMB4",
             link: "https://www.columbiaspectator.com/required-reading/2017/03/31/culminating-community-get-to-know-columbias-biggest-campus-events/"
         },
         {
             title: "From player to head coach: DeSandis, CC ’13, to make her debut season",
-            author: "Mariella Evangelista",
+            author: "Jorge Hernandez",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T5EX5NI6T5EMDDGKXXWSSDZMNU.jpg",
             link: "https://www.columbiaspectator.com/main/2021/08/27/from-player-to-head-coach-desandis-cc-13-to-make-her-debut-season/"
         },
