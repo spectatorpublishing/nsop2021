@@ -48,7 +48,7 @@ const Paragraph = styled.div`
     font-family: 'Amiko', sans-serif;
     width: 65%;
     margin-top: 5px;
-    font-size: 0.875rem;
+    font-size: 0.95rem;
 
     a {
         color: black;
@@ -67,7 +67,7 @@ const LikeWhatYouSee1 = () => {
             <Wrapper>
                 <MainText>Like What You See?</MainText>
                 <Paragraph>
-                    This website was created entirely by our tech and product design teams <a href="http://www.specpublishing.com/join">here</a> at Spectator.
+                    This website was created entirely by our tech and product design teams <a href="http://www.specpublishing.com/join" target="_blank">here</a> at Spectator.
                     Curious to see how it's done? Interested in doing this work yourself?
                     Click here to learn how to join our team.
                 </Paragraph>

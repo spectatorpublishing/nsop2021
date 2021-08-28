@@ -34,7 +34,7 @@ const Authors = styled.div`
 
 const ArticleBox = ({imgLink, link, title, author}) => {
     return (
-        <Wrap href="">
+        <Wrap href={link} target="_blank">
             <Image src={imgLink}></Image>
             <Title>{title}</Title>
             <Authors>By {author}</Authors>

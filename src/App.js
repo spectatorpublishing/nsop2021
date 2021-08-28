@@ -13,7 +13,7 @@ import { device } from './device';
 
 const FirstFold = styled.div`
   display: flex;
-  margin-top: -2rem;
+  margin-top: -3rem;
   flex-direction: column-reverse;
 
   @media ${device.tablet} {
@@ -23,12 +23,22 @@ const FirstFold = styled.div`
 `;
 
 const MainImage = styled.iframe`
-  width: 100%;
-  height: 20rem;
+  display: none;
 
   @media ${device.tablet} {
+    display: block;
     width: 60%;
     height: 35rem;
+  }
+`;
+
+const MobileMainImage = styled.img`
+  width: 100%;
+  height: 20rem;
+  display: block;
+
+  @media ${device.tablet} {
+    display: none;
   }
 `;
 
@@ -48,6 +58,7 @@ function App() {
         <FirstFold>
           <NavTabs />
           <MainImage src="https://spectatorpublishing.github.io/nsopCampusMap/" frameBorder="0" scrolling="no" />
+          <MobileMainImage src="https://cds-static-hosting.s3.amazonaws.com/NSOP-ILLO.jpg" />
           <a href="https://212west72.com/the-building?utm_source=ColumbiaSpectator&utm_medium=columbiaspectator&utm_campaign=Columbia%20Spectator%20Banners" target="_blank">
             <Ad src="https://s0.2mdn.net/10483125/212W72_061521_300x600.gif"></Ad>
           </a>

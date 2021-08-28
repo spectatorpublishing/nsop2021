@@ -76,7 +76,6 @@ const Header1 = styled.div`
     font-weight: 600;
     margin-top: 2rem;
     margin-block-end: 0;
-    text-transform: uppercase;
     margin-top: 2rem;
     padding-bottom: 1rem;
     margin-block-end: 0;
@@ -85,14 +84,14 @@ const Header1 = styled.div`
 
     @media ${device.tablet} {
         margin-bottom: -1rem;
-        padding-left: 40%;
+        padding-left: 45%;
 
     }
 `;
 
 const Text = styled.p`
     font-family: 'Amiko', sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.95rem;
 `;
 
 const LeftSVG = styled.img`
@@ -111,9 +110,10 @@ const RightSVG = styled.img`
     }
 `;
 
-const HeaderText = styled.div`
+const HeaderText = styled.h2`
     margin: 0;
     padding-right: 0.5rem;
+    font-size: 1.5rem;
 
     @media ${device.tablet} {
         padding-right: 0;
