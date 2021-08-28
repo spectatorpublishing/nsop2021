@@ -88,12 +88,12 @@ export const Articles = {
         },
     ],
     "Student Life": [
-        {
+        /*{
             title: "EDIT ME Data explainer focusing on c/o 2024 and 2025",
             author: "Elizabeth Commisso",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
-        },
+        },*/
          {
             title: "The class of 2025 is the most selective in Columbia’s history. Was the admissions process more equitable?",
             author: "Irie Sentner",
