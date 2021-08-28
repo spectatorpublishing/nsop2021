@@ -9,6 +9,7 @@ import CoursesWeLoved from './components/Highlights';
 import ExploreClubs from './components/ExploreClubs';
 import StaffCredits from './components/StaffCredits';
 import { device } from './device';
+// import CampusMap from './components/CampusMap';
 
 const FirstFold = styled.div`
   display: flex;
@@ -21,11 +22,13 @@ const FirstFold = styled.div`
   }
 `;
 
-const MainImage = styled.img`
+const MainImage = styled.iframe`
   width: 100%;
+  height: 20rem;
 
   @media ${device.tablet} {
     width: 60%;
+    height: 40rem;
   }
 `;
 
@@ -44,7 +47,7 @@ function App() {
         <NavBar />
         <FirstFold>
           <NavTabs />
-          <MainImage src="https://cds-static-hosting.s3.amazonaws.com/NSOP-ILLO.png"></MainImage>
+          <MainImage src="https://spectatorpublishing.github.io/nsopCampusMap/" frameBorder="0" />
           <a href="https://212west72.com/the-building?utm_source=ColumbiaSpectator&utm_medium=columbiaspectator&utm_campaign=Columbia%20Spectator%20Banners" target="_blank">
             <Ad src="https://s0.2mdn.net/10483125/212W72_061521_300x600.gif"></Ad>
           </a>
