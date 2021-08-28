@@ -25,10 +25,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/required-reading/2017/08/14/first-year-fears-solutions-for-common-academic-worries/"
         },
         {
-            title: "EDIT ME Columbia Crash Course: Demystifying the lore of the Columbia College-SEAS Core",
+            title: "Columbia Crash Course: Demystifying the lore of the Columbia College-SEAS Core",
             author: "Claire Schnatterbeck",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7SHBAOGHPJGJFDP3BE4Z6NDOX4.jpeg",
+            link: "https://www.columbiaspectator.com/podcasts/2021/08/27/columbia-crash-course-demystifying-the-lore-of-the-columbia-college-seas-core/"
         },
         {
             title: "Advice for incoming transfer students to Columbia and Barnard",
@@ -95,10 +95,10 @@ export const Articles = {
             link: ""
         },
          {
-            title: "EDIT ME Demographic analysis of the class of 2025",
+            title: "The class of 2025 is the most selective in Columbia’s history. Was the admissions process more equitable?",
             author: "Irie Sentner",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4WBXX26SBNAE3O6LE5HBVYIPHM.jpg",
+            link: "https://www.columbiaspectator.com/news/2021/08/27/the-class-of-2025-is-the-most-selective-in-columbias-history-was-the-admissions-process-more-equitable/"
         },
         {
             title: "A guide to Dodge Fitness Center",
@@ -107,10 +107,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/sports/2021/08/27/a-guide-to-dodge-fitness-center/"
         },
         {
-            title: "Decoding the tricky Barnard-Columbia relationship",
-            author: "Veronica Grace Taleon",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HWGGNR5R3ZAJROTEI3NJ5S3P7Q",
-            link: "https://www.columbiaspectator.com/required-reading/2017/04/03/decoding-the-tricky-barnard-columbia-relationship/"
+            title: "A decade in athletics: Tracey Bartholomew is leading women’s soccer out of the night",
+            author: "Adam Lang",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PW6CZURNB5BOPCXFJTGEZUINMA.png",
+            link: "https://www.columbiaspectator.com/sports/2020/04/28/a-decade-in-athletics-tracey-bartholomew-is-leading-womens-soccer-out-of-the-night/"
         },
         {
             title: "A decade in athletics: How football went from back-to-back winless seasons to second in the Ivy League",
@@ -125,10 +125,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/sports/2020/04/30/a-decade-in-athletics-cross-country-consistently-finds-itself-in-the-hunt-for-ivy-titles/"
         },
         {
-            title: "A decade in athletics: Tracey Bartholomew is leading women’s soccer out of the night",
-            author: "Adam Lang",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PW6CZURNB5BOPCXFJTGEZUINMA.png",
-            link: "https://www.columbiaspectator.com/sports/2020/04/28/a-decade-in-athletics-tracey-bartholomew-is-leading-womens-soccer-out-of-the-night/"
+            title: "Decoding the tricky Barnard-Columbia relationship",
+            author: "Veronica Grace Taleon",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HWGGNR5R3ZAJROTEI3NJ5S3P7Q",
+            link: "https://www.columbiaspectator.com/required-reading/2017/04/03/decoding-the-tricky-barnard-columbia-relationship/"
         },
         {
             title: "Guide to Columbia’s dining halls",
@@ -143,10 +143,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/sports/2021/08/27/heres-how-to-root-for-the-columbia-athletes-who-will-resume-competing-this-fall/"
         },
         {
-            title: "EDIT ME How to join club teams",
+            title: "An up-to-date guide on Columbia’s club sports",
             author: "Bernard Wang",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WAQP3IXBPRCUDLLZZHYKEU23RY.JPG",
+            link: "https://www.columbiaspectator.com/main/2021/08/27/an-up-to-date-guide-on-columbias-club-sports/"
         },
         {
             title: "EDIT ME 100 Words: Which dining hall is best",
@@ -159,6 +159,12 @@ export const Articles = {
             author: "Clara Ence Morse and Mackenzie George",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PZB22XIPPVFMXPTY3ZV5EQG6UA.png",
             link: "https://www.columbiaspectator.com/main/2021/08/11/here-is-how-columbia-athletes-fared-at-the-olympics/"
+        },
+        {
+            title: "EDIT ME Columbia Crash Course: How to stay afloat in Columbia’s ocean of clubs",
+            author: "Avery Reed",
+            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
+            link: ""
         },
         {
             title: "An international student’s guide to Columbia",
@@ -221,19 +227,14 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/for-the-class-of-2025-a-return-to-the-classroom-means-a-revival-of-artistic-spirit/"
         },
         {
-            title: "EDIT ME Feature on talented incoming student musicians",
+            title: "Three incoming first-years who explored their passion for music during the pandemic",
             author: "Noah Bullwinkle",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
-        },{
-            title: "EDIT ME Columbia Crash Course: What to know before you rush Greek life",
-            author: "Natalie Goldberg",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ML3RZ5BA5NEMPE5P2CK5JVLKDM.jpg",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/three-incoming-first-years-who-explored-their-passion-for-music-during-the-pandemic/"
         },
         {
-            title: "EDIT ME Columbia Crash Course: How to stay afloat in Columbia’s ocean of clubs",
-            author: "Avery Reed",
+            title: "EDIT ME Columbia Crash Course: What to know before you rush Greek life",
+            author: "Natalie Goldberg",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
@@ -251,15 +252,27 @@ export const Articles = {
         },
         {
             title: "Cultivating community: Get to know Columbia’s biggest campus events",
-            author: "Mariella Evangelista",
+            author: "Jorge Hernandez",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AMEIO4C22JCPRH4P7E2CY7RMB4",
             link: "https://www.columbiaspectator.com/required-reading/2017/03/31/culminating-community-get-to-know-columbias-biggest-campus-events/"
+        },
+        {
+            title: "From player to head coach: DeSandis, CC ’13, to make her debut season",
+            author: "Mariella Evangelista",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T5EX5NI6T5EMDDGKXXWSSDZMNU.jpg",
+            link: "https://www.columbiaspectator.com/main/2021/08/27/from-player-to-head-coach-desandis-cc-13-to-make-her-debut-season/"
         },
     ],
     "City": [
         {
-            title: "EDIT ME After a year without students, restaurants around Columbia prepare for their return",
+            title: "After a year without students, restaurants around Columbia cope with the loss and plan for their return",
             author: "Irene Madrigal",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6AVCBEKDJNEHJN2PPKKTVZVVX4.JPG",
+            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/after-a-year-without-students-restaurants-around-columbia-cope-with-the-loss-and-plan-for-their-return/"
+        },
+        {
+            title: "EDIT ME Columbia Crash Course: Pizza",
+            author: "Samuel Hyman",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
         },
@@ -294,16 +307,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/20/an-ale-inclusive-look-into-columbias-campus-bar-scene/"
         },
         {
-            title: "EDIT ME Columbia Crash Course: Being vocal about eating local",
+            title: "Columbia Crash Course: Being vocal about eating local",
             author: "Bella Druckman",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
-        },
-        {
-            title: "EDIT ME Coming to Columbia: Pizza",
-            author: "Samuel Hyman",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DMKLNNNGKFGEJEUMGILWTNOKHE.jpeg",
+            link: "https://www.columbiaspectator.com/podcasts/2021/08/27/columbia-crash-course-being-vocal-about-eating-local/"
         },
         {
             title: "Women-owned restaurants in MoHi",
