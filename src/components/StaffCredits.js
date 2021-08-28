@@ -173,7 +173,7 @@ const CreditsList = () => {
                         ))}
                     </Column>
                     <Column>
-                        {["Sports", "A&E", "Illustrations", "Podcasts", "Engagement"].map(section => (
+                        {["Sports", "A&E", "Illustrations", "Podcasts", "Spectrum"].map(section => (
                             <Box>
                                 <h2>{section}</h2>
                                 {credits[section].map(person => (
@@ -183,7 +183,7 @@ const CreditsList = () => {
                         ))}
                     </Column>
                     <Column>
-                        {["Engagement", "Engineering", "Opinion", "Product Design", "Newsroom Development", "Revenue", "Spectrum"].map(section => (
+                        {["Engagement", "Engineering", "Opinion", "Product Design", "Newsroom Development", "Revenue", "Engagement"].map(section => (
                             <Box>
                                 <h2>{section}</h2>
                                 {credits[section].map(person => (

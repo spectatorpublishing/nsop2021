@@ -143,7 +143,7 @@ const LikeWhatYouSee2 = () => {
                 </Content>
                 <Credits>
                     <Header>Cover Art By: <InnerCredits>Noelle Hunter</InnerCredits></Header>
-                    <Header>Website Design By: <InnerCredits>Christina Su and Cindy Espinosa</InnerCredits></Header>
+                    <Header>Website Design By: <InnerCredits>Christina Su, Aaron McKeever, and Cindy Espinosa</InnerCredits></Header>
                     <Header>Developers: <InnerCredits>Erin McNulty, Laura Castro Venegas, Francesca Cavuoti, Yu-Chen Huang, and Yunlan Li</InnerCredits></Header>
                 </Credits>
             </Wrapper>

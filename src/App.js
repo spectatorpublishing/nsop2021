@@ -28,7 +28,7 @@ const MainImage = styled.iframe`
 
   @media ${device.tablet} {
     width: 60%;
-    height: 40rem;
+    height: 35rem;
   }
 `;
 
@@ -47,7 +47,7 @@ function App() {
         <NavBar />
         <FirstFold>
           <NavTabs />
-          <MainImage src="https://spectatorpublishing.github.io/nsopCampusMap/" frameBorder="0" />
+          <MainImage src="https://spectatorpublishing.github.io/nsopCampusMap/" frameBorder="0" scrolling="no" />
           <a href="https://212west72.com/the-building?utm_source=ColumbiaSpectator&utm_medium=columbiaspectator&utm_campaign=Columbia%20Spectator%20Banners" target="_blank">
             <Ad src="https://s0.2mdn.net/10483125/212W72_061521_300x600.gif"></Ad>
           </a>
