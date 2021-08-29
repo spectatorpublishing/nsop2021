@@ -121,7 +121,7 @@ export const Articles = {
         {
             title: "A decade in athletics: How football went from back-to-back winless seasons to second in the Ivy League",
             author: "Harris Walker",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DFLSCF5OZBC6JHNWLAQXUS22GU.png",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/S6UNI4CJXVHI5PUNCL2YLJ2RMQ.jpg",
             link: "https://www.columbiaspectator.com/sports/2020/02/24/a-decade-in-athletics-how-football-went-from-back-to-back-winless-seasons-to-second-in-the-ivy-league/"
         },
         {
@@ -229,7 +229,7 @@ export const Articles = {
         {
             title: "For the class of 2025, a return to the classroom means a revival of artistic",
             author: "Fernanda Aguero",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BXGVD74T7JBWVGDWI7HHSE2UNQ.jpg",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T25GMNBXZRDH3H66DELCN5UJIU.jpg",
             link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/for-the-class-of-2025-a-return-to-the-classroom-means-a-revival-of-artistic-spirit/"
         },
         {
