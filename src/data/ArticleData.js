@@ -108,7 +108,7 @@ export const Articles = {
         },
         {
             title: "116 Columbia traditions",
-            author: "Columbia Daily Spectator staff",
+            author: "Columbia Daily Spectator",
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RTZCJYYI7VB6BIBKSG27C5JH4Q.png",
             link: "https://www.columbiaspectator.com/spectrum/2021/08/28/116-columbia-traditions/"
         },
@@ -155,10 +155,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/main/2021/08/27/an-up-to-date-guide-on-columbias-club-sports/"
         },
         {
-            title: "EDIT ME 100 Words: Which dining hall is best",
-            author: "Ryan Oden",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            title: "Ask Spec in 100 words: What’s your favorite dining hall?",
+            author: "Columbia Daily Spectator",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FIDUIA3IYFCBHONE7LXSIYML3I.jpg",
+            link: "https://www.columbiaspectator.com/opinion/2021/08/28/ask-spec-in-100-words-whats-your-favorite-dining-hall/"
         },
         {
             title: "Here is how Columbia athletes fared at the Olympics",
@@ -166,12 +166,12 @@ export const Articles = {
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PZB22XIPPVFMXPTY3ZV5EQG6UA.png",
             link: "https://www.columbiaspectator.com/main/2021/08/11/here-is-how-columbia-athletes-fared-at-the-olympics/"
         },
-        {
+        /*{
             title: "EDIT ME Columbia Crash Course: How to stay afloat in Columbia’s ocean of clubs",
             author: "Avery Reed",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
-        },
+        },*/
         {
             title: "An international student’s guide to Columbia",
             author: "Lina Bennani Karim",
@@ -239,10 +239,10 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/three-incoming-first-years-who-explored-their-passion-for-music-during-the-pandemic/"
         },
         {
-            title: "EDIT ME Columbia Crash Course: What to know before you rush Greek life",
+            title: "Columbia Crash Course: What to know before you rush Greek life",
             author: "Natalie Goldberg",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BAXHTXUV5RHTTILWCQPG3SNULI.jpg",
+            link: "https://www.columbiaspectator.com/podcasts/2021/08/28/columbia-crash-course-what-to-know-before-you-rush-greek-life/"
         },
         {
             title: "Self-care and when to reach out: Prioritizing your mental health",
@@ -276,12 +276,12 @@ export const Articles = {
             imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6AVCBEKDJNEHJN2PPKKTVZVVX4.JPG",
             link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/after-a-year-without-students-restaurants-around-columbia-cope-with-the-loss-and-plan-for-their-return/"
         },
-        {
+        /*{
             title: "EDIT ME Columbia Crash Course: Pizza",
             author: "Samuel Hyman",
             imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
             link: ""
-        },
+        },*/
         {
             title: "A student’s guide to theatergoing in New York City during COVID-19",
             author: "Sophie Craig",
