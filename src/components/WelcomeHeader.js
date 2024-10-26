@@ -167,20 +167,22 @@ const SignatureTitle = styled.p`
 const Navigation = styled.nav`
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.75rem;
   justify-content: center;
 `;
 
 const BaseButton = styled.button`
-  padding: 0.5rem 1.5rem;
+  padding: 0.75rem 2rem;
   border-radius: 4px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Patua One';
   cursor: pointer;
   transition: all 0.2s ease;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
 const HomeButton = styled(BaseButton)`
-  background-color: #2d2678;
+  background-color: #3A33A0;
   color: white;
   border: none;
   
@@ -191,8 +193,8 @@ const HomeButton = styled(BaseButton)`
 
 const SectionButton = styled(BaseButton)`
   background-color: white;
-  color: #2d2678;
-  border: 1px solid #2d2678;
+  color: #3A33A0;
+  border: 1px solid transparent;
   
   &:hover {
     background-color: #f0f0f0;
