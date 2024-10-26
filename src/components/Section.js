@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 const ArticleWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
-    padding: 2rem;
+    padding-top: 2rem;
     gap: 1rem;
 
     @media (max-width: ${device.tablet}) {
