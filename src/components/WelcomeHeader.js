@@ -3,6 +3,15 @@ import styled from 'styled-components';
 import { device } from '../device';
 
 export default function WelcomeHeader({ title, imageSrc  }) {
+
+  // for navigation to sections when clicking on navbar 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <Container>
       <ContentWrapper>
@@ -80,10 +89,12 @@ export default function WelcomeHeader({ title, imageSrc  }) {
         
         {/* Navigation */}
         <Navigation>
-          <HomeButton>Home</HomeButton>
-          {['Section', 'Section', 'Section', 'Section'].map((section, index) => (
-            <SectionButton key={index}>{section}</SectionButton>
-          ))}
+          <HomeButton onClick={() => scrollToSection('COVID-19')}>Home</HomeButton>
+          {["COVID-19", "Student Life", "Academics", "City"].map((section, index) => (
+          <SectionButton key={index} onClick={() => scrollToSection(section.toLowerCase().split(" ").join("-"))}>
+              {section}
+          </SectionButton>
+            ))}
         </Navigation>
       </ContentWrapper>
     </Container>
