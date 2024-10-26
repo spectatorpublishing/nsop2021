@@ -19,7 +19,7 @@ const Header = styled.h2`
     letter-spacing: 2.2px;
     margin:0;
     text-transform: uppercase;
-    padding: 2rem 3rem;
+    padding: 2rem calc(3rem + 0px);
     
     @media (max-width: ${device.tablet}) {
         padding: 2rem 1rem;
