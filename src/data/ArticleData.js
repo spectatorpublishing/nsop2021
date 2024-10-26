@@ -73,6 +73,22 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/spectrum/2018/08/18/spectrums-guide-to-building-the-the-perfect-schedule/"
         },
     ],
+    "Audio": [
+        {
+            title: "A look at the Lions: Homecoming Edition",
+            author: "Sophia Cordoba",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/O47DRDE3UBEXDLSHYLI4B7WIJE.jpg",
+            link: "https://www.columbiaspectator.com/podcasts/2024/10/23/a-look-at-the-lions-homecoming-edition/",
+        },
+    ],
+    "Crosswords": [
+        {
+            title: "Oct. 23, 2024 Crossword",
+            author: "Ananya Govindarajan",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2MDWS73TIRDJROK4M2MGZ7UKAE.png",
+            link: "https://www.columbiaspectator.com/multimedia/2024/10/23/oct-23-2024/"
+        },
+    ],
     "Sports": [
         {
             title: "Football to play Dartmouth in homecoming matchup for first place in the Ivy League",
@@ -307,88 +323,28 @@ export const Articles = {
     ],
     "City": [
         {
-            title: "After a year without students, restaurants around Columbia cope with the loss and plan for their return",
-            author: "Irene Madrigal",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6AVCBEKDJNEHJN2PPKKTVZVVX4.JPG",
-            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/after-a-year-without-students-restaurants-around-columbia-cope-with-the-loss-and-plan-for-their-return/"
-        },
-        /*{
-            title: "EDIT ME Columbia Crash Course: Pizza",
-            author: "Samuel Hyman",
-            imgLink: "https://images.squarespace-cdn.com/content/v1/53bf2a9be4b05a05f0bd263c/1629325063894-V5MX0HBCNKY5CD3LIY2V/sarah+braka?format=1000w",
-            link: ""
-        },*/
-        {
-            title: "A student’s guide to theatergoing in New York City during COVID-19",
-            author: "Sophie Craig",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3KLTUHJ7DVEKRCZ5UONR2Y2ZS4.jpg",
-            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/26/a-students-guide-to-theatergoing-in-new-york-city-during-covid-19/"
+            title: "West Harlem HDFC residents question rise in UHAB-provided insurance rates",
+            author: "Grace Kaste",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GNLTTI4OYBBWRFURAVFRLBK3IM.JPG",
+            link: "https://www.columbiaspectator.com/city-news/2024/10/09/west-harlem-hdfc-residents-question-rise-in-uhab-provided-insurance-rates/"
         },
         {
-            title: "The best restaurants around Columbia",
-            author: "Bella Druckman",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GN7NJRRFGZEQRGPKEBV6QN7PDM.JPG",
-            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/08/27/the-best-restaurants-around-columbia/"
+            title: "Efforts to push Manhattanville residents to sign Section 8 leases persist as deadline approaches",
+            author: "Aiyana St. Hilaire",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/I6T26XVIGNBEFFTLTTPV76XZU4.jpg",
+            link: "https://www.columbiaspectator.com/city-news/2024/10/08/efforts-to-push-manhattanville-residents-to-sign-section-8-leases-persist-as-deadline-approaches/"
         },
         {
-            title: "A night out as a Columbia student",
-            author: "Ariana Novo and Jane Mok",
-            imgLink: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RTCKJMVTPRGXHNCDC6AWU7X2D4",
-            link: "https://www.columbiaspectator.com/spectrum/2020/04/17/a-night-out-as-a-columbia-student/"
+            title: "A decade into Vision Zero, West Harlem still suffers from unsafe bike lanes",
+            author: "Uriel Lopez",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SCN5JOBZE5HG3FABIUTNAJ4FXA.JPG",
+            link: "https://www.columbiaspectator.com/city-news/2024/10/13/a-decade-into-vision-zero-west-harlem-still-suffers-from-unsafe-bike-lanes/",
         },
         {
-            title: "Places around MoHi to buy room necessities",
-            author: "Ariana Novo",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QQASN3LY7FCJFMT2AZEEUHCB3Y.JPG",
-            link: "https://www.columbiaspectator.com/spectrum/2020/08/27/places-around-mohi-to-buy-room-necessities/"
-        },
-        {
-            title: "An ale-inclusive look into Columbia’s campus bar scene",
-            author: "Noah Sheidlower",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LRU3SMOEDRHJRP5AYPBYNIOF5Q.png",
-            link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/20/an-ale-inclusive-look-into-columbias-campus-bar-scene/"
-        },
-        {
-            title: "Columbia Crash Course: Being vocal about eating local",
-            author: "Bella Druckman",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DMKLNNNGKFGEJEUMGILWTNOKHE.jpeg",
-            link: "https://www.columbiaspectator.com/podcasts/2021/08/27/columbia-crash-course-being-vocal-about-eating-local/"
-        },
-        {
-            title: "Women-owned restaurants in MoHi",
-            author: "Ariana Novo and Tonycia Coe",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ME576RF2CBCATJROBSIX5JD7WA.jpg",
-            link: "https://www.columbiaspectator.com/spectrum/2021/03/08/women-owned-restaurants-in-mohi/"
-        },
-        {
-            title: "Ways to save in New York",
-            author: "Ariana Novo",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VNNQAQCNXJDYRMJ7MUJSENI4EQ.jpg",
-            link: "https://www.columbiaspectator.com/spectrum/2020/01/31/ways-to-save-in-new-york/"
-        },
-        {
-            title: "Budgeting tips and student deals around Columbia’s campus",
-            author: "Haleigh Stewart and Maya Sulkin",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HZLRB23PZBCDRCUNIORABUDWP4.jpg",
-            link: "https://www.columbiaspectator.com/spectrum/2020/11/09/budgeting-tips-and-student-deals-around-columbias-campus/"
-        },
-        {
-            title: "Your guide to New York City on a student budget",
-            author: "Jazilah Salam",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MJA6EXXXS5GRLBBYVU4J26RTUQ.jpg",
-            link: "https://www.columbiaspectator.com/spectrum/2019/05/21/your-guide-to-nyc-on-a-student-budget/"
-        },
-        {
-            title: "A guide to Morningside Heights as a Columbia student",
-            author: "Lina Bennani Karim",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/23SKMVUBCBH37ONRJ3G7OUBNJI.jpg",
-            link: "https://www.columbiaspectator.com/spectrum/2020/04/22/a-guide-to-morningside-heights-as-a-columbia-student/"
-        },
-        {
-            title: "Which MoHi coffee shop should you frequent?",
-            author: "Jane Mok",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5TCBLLU22FHFPO5SB7JLLEEOVE.jpeg",
-            link: "https://www.columbiaspectator.com/spectrum/2019/10/04/which-mohi-coffee-shop-should-you-frequent/"
+            title: "Rat contraceptives to come to District 7 in new pilot program",
+            author: "Kris Koh",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/F3VLQJATD5D5BGYFSADQ4WNICE.JPG",
+            link: "https://www.columbiaspectator.com/city-news/2024/10/14/rat-contraceptives-to-come-to-district-7-in-new-pilot-program/"
         },
     ],
 };
