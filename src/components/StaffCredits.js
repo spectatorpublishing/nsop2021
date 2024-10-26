@@ -5,11 +5,20 @@ import { device } from '../device';
 
 const Wrapper = styled.div`
     background-color: #EBF0F5;
-    padding: 2rem 0 2rem 0;
+    padding: 4rem 2rem;
 
     @media only screen and (max-width: 800) {
         padding: 1rem 0 1rem 0;
     }
+`;
+
+// to control the relationship between title and information/boxes
+const ContentContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;  // Consistent spacing between title and content
+    max-width: 1200px;
+    margin: 0 auto;
 `;
 
 const Direction = styled.div`
@@ -23,7 +32,7 @@ const Direction = styled.div`
 
 const Text = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     font-family: Bitter;
     font-size: 18px;
