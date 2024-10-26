@@ -89,8 +89,8 @@ export default function WelcomeHeader({ title, imageSrc  }) {
         
         {/* Navigation */}
         <Navigation>
-          <HomeButton onClick={() => scrollToSection('COVID-19')}>Home</HomeButton>
-          {["COVID-19", "Student Life", "Academics", "City"].map((section, index) => (
+          <HomeButton onClick={() => scrollToSection('Sports')}>Home</HomeButton>
+          {["Sports", "Student Life", "Academics", "City"].map((section, index) => (
           <SectionButton key={index} onClick={() => scrollToSection(section.toLowerCase().split(" ").join("-"))}>
               {section}
           </SectionButton>

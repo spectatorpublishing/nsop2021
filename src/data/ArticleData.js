@@ -73,18 +73,54 @@ export const Articles = {
             link: "https://www.columbiaspectator.com/spectrum/2018/08/18/spectrums-guide-to-building-the-the-perfect-schedule/"
         },
     ],
-    "COVID-19": [
+    "Sports": [
         {
-            title: "Barnard breaks from Columbia’s original guidance, will continue mandating indoor masking for fall semester",
-            author: "Dia Gill",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IDE6W5CRVNBO7HOBGH5NEG6Z4E.jpeg",
-            link: "https://www.columbiaspectator.com/news/2021/07/29/barnard-breaks-from-columbias-original-guidance-will-continue-mandating-indoor-masking-for-fall-semester/"
+            title: "Football to play Dartmouth in homecoming matchup for first place in the Ivy League",
+            author: "Brooke Talley, Benjamin Rubin",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MTZQI3NITFAYDCK7V5OVHBWL6Y.jpg",
+            link: "https://www.columbiaspectator.com/sports/2024/10/23/football-to-play-dartmouth-in-homecoming-matchup-for-first-place-in-the-ivy-league/"
         },
         {
-            title: "Columbia to welcome back students at full capacity, with reduced masking and testing for vaccinated affiliates",
-            author: "Stella Pagkas",
-            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6YLFBZHD6VGVFMO5UGM6SMVEK4.jpg",
-            link: "https://www.columbiaspectator.com/news/2021/08/27/columbia-to-welcome-back-students-at-full-capacity-with-reduced-masking-and-testing-for-vaccinated-affiliates/"
+            title: "How the Ivy League is tackling concussions in football", 
+            author: "Arielle Rieder",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HNRVPP3YLZAOBLP5ROIC64X77M.jpg",
+            link: "https://www.columbiaspectator.com/sports/2024/10/24/how-the-ivy-league-is-tackling-concussions-in-football/"
+        },
+        {
+            title: "‘This place is special’: Sophomore quarterback Chase Goodwin on Columbia football, academics, and Homecoming",
+            author: "Aidan Hassan",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ABV23ZBOXJHXNNODG62PRDUAUI.jpeg",
+            link: "https://www.columbiaspectator.com/sports/2024/10/23/this-place-is-special-sophomore-quarterback-chase-goodwin-on-columbia-football-academics-and-homecoming/"
+        },
+        {
+            title: "Lou Little’s machine: Ninety years since the historic Rose Bowl victory", 
+            author: "Nicholas Fink",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/X3B5SVU62NGJNH7UKTEKAY7YQE.jpg",
+            link: "https://www.columbiaspectator.com/sports/2024/10/20/lou-littles-machine-ninety-years-since-the-historic-rose-bowl-victory/"
+        },
+        {
+            title: "Family, friends, and football: The Joey Giorgi story",
+            author: "Benjamin Rubin",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/43T7Y42PV5HSFFAXQREJ6GUP2E.jpeg",
+            link: "https://www.columbiaspectator.com/sports/2024/10/22/family-friends-and-football-the-joey-giorgi-story/"
+        },
+        {
+            title: "Columbia’s event staff: The unsung heroes of game day",
+            author: "Brooke Talley",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TXJLALKXPZDARII7D5IKEDP6OU.jpg",
+            link: "https://www.columbiaspectator.com/sports/2024/10/23/columbias-event-staff-the-unsung-heroes-of-game-day/",
+        },
+        {
+            title: "Malcolm Terry II: From childhood dream to Columbia star, pursuing football and family legacy",
+            author: "Brooke Talley",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T5SMQRDHLRFMJKNVARZSIVJL5E.jpg",
+            link: "https://www.columbiaspectator.com/sports/2024/10/23/malcolm-terry-ii-from-childhood-dream-to-columbia-star-pursuing-football-and-family-legacy/"
+        },
+        {
+            title: "‘He truly loves what he does’: The Jon Poppe Era",
+            author: "Emma Dignan",
+            imgLink: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DQRHB7HE3JGNHK2HOKADVM5GMU.jpg",
+            link: "https://www.columbiaspectator.com/main/2024/10/23/he-truly-loves-what-he-does-the-jon-poppe-era/"
         },
     ],
     "Student Life": [

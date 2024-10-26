@@ -57,7 +57,7 @@ const MobileAd = styled.img`
 `;
 
 function App() {
-  const sectionNames = ["COVID-19", "Student Life", "Academics", "City"];
+  const sectionNames = ["Sports", "Student Life", "Academics", "City"];
 
   return (
     <div className="App">
