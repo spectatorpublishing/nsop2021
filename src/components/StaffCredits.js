@@ -90,17 +90,16 @@ const Box = styled.div`
 `;
 
 const Title = styled.div`
-    font-family: 'Passion One';
-    color: #38319B;
-    font-size: 60px;
+    color: #312D9C;
+    font-family: "Passion One";
+    font-size: 55px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 2.4px;
+    letter-spacing: 2.2px;
+    margin:0;
     text-transform: uppercase;
     text-align:center;
-    font-size: 2.5rem;
-    font-weight: bold;
     margin: 0;
   
     @media ${device.tablet} {
