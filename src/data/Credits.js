@@ -1,17 +1,14 @@
 export const credits = {
     "Corporate Board": [
         {
-            "name": "Sarah Braka",
+            "name": "Isabella Ramírez",
             "position": "Editor in Chief"
         },
         {
-            "name": "Lizzie Karpen",
-            "position": "Managing Editor"
+            "name": "Esha Karam",
+            "position": "Managing Editor",
         },
-        {
-            "name": "Tamarah Wallace",
-            "position": "Publisher"
-        }
+
     ],
     "News": [
         {
@@ -39,35 +36,43 @@ export const credits = {
     ],
     "Sports": [
         {
-            "name": "Mackenzie George",
+            "name": "Heather Chen",
             "position": "Sports Editor"
         },
         {
-            "name": "Clara Ence Morse",
-            "position": "Sports Editor"
-        },
-        {
-            "name": "Jorge Hernandez",
+            "name": "Takashi Williams",
             "position": "Deputy Sports Editor"
         },
         {
-            "name": "Matt Kim",
+            "name": "Emma Dignan",
             "position": "Deputy Sports Editor"
         },
         {
-            "name": "Miles Schachner",
+            "name": "Lucas Metzger",
             "position": "Deputy Sports Editor"
         },
         {
-            "name": "Alex Kwok",
+            "name": "Jillian Prunty",
+            "position": "Deputy Sports Editor"
+        },
+        {
+            "name": "Arielle Rieder",
+            "position": "Deputy Sports Editor"
+        },
+        {
+            "name": "Aidan Hassan",
+            "position": "Senior Staff Writer"
+        },
+        {
+            "name": "Brooke Talley",
             "position": "Staff Writer"
         },
         {
-            "name": "Rebecca Wachen",
+            "name": "Benjamin Rubin",
             "position": "Staff Writer"
-        },
+        }, 
         {
-            "name": "Bernard Wang",
+            "name": "Nicholas Fink",
             "position": "Staff Writer"
         }
     ],
@@ -315,25 +320,9 @@ export const credits = {
     ],
     "Engineering": [
         {
-            "name": "Erin McNulty",
-            "position": "Head of Engineering"
-        },
-        {
-            "name": "Laura Castro Venegas",
+            "name": "Anna Reis",
             "position": "Engineering Manager"
         },
-        {
-            "name": "Francesca Cavuoti",
-            "position": "Engineering Manager"
-        },
-        {
-            "name": "Yu-Chen Huang",
-            "position": "Engineering Manager"
-        },
-        {
-            "name": "Yunlan Li",
-            "position": "Engineering Manager"
-        }
     ],
     "Newsroom Development": [
         {
