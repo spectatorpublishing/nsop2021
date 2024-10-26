@@ -8,6 +8,7 @@ import Section from './components/Section';
 import CoursesWeLoved from './components/Highlights';
 import ExploreClubs from './components/ExploreClubs';
 import StaffCredits from './components/StaffCredits';
+import WelcomeHeader from './components/WelcomeHeader';
 import { device } from './device';
 
 const FirstFold = styled.div`
@@ -62,7 +63,7 @@ const MobileAd = styled.img`
 function App() {
   return (
     <div className="App">
-        <NavBar />
+        <WelcomeHeader></WelcomeHeader>
         <FirstFold>
           <NavTabs />
           <MainImage src="https://spectatorpublishing.github.io/nsopCampusMap/" frameBorder="0" scrolling="no" />
