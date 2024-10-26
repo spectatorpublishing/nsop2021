@@ -1,20 +1,20 @@
 {
-  "short_name": "NSOP 2021",
-  "name": "Columbia Daily Spectator NSOP 2021 Edition",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
-      "src": "https://s3.amazonaws.com/year-in-review-assets/CDS_Favicon.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://s3.amazonaws.com/year-in-review-assets/CDS_Favicon.ico",
-      "type": "image/x-icon",
+      "src": "logo192.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://s3.amazonaws.com/year-in-review-assets/CDS_Favicon.ico",
-      "type": "image/x-icon",
+      "src": "logo512.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
