@@ -17,6 +17,7 @@ export default function WelcomeHeader({ title, imageSrc  }) {
       <ContentWrapper>
         {/* Grid Layout */}
         <GridContainer>
+          <ContentArea>
           {/* Left Column - Placeholder */}
           <ImagePlaceholder src={imageSrc} />
           
@@ -85,6 +86,7 @@ export default function WelcomeHeader({ title, imageSrc  }) {
               </SignatureBlock>
             </SignatureSection>
           </ContentColumn>
+          </ContentArea>
         </GridContainer>
         
         {/* Navigation */}
@@ -114,14 +116,32 @@ const ContentWrapper = styled.div`
 `;
 
 const GridContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 1rem;
+ display: flex;
+  flex-direction: column;
+  gap: 2rem;
   margin-bottom: 10rem;
+`;
 
-  @media ${device.tablet} {
-    grid-template-columns: 1fr 1fr;
-    flex-direction:row;
+//display: grid;
+// grid-template-columns: 1fr 1.5fr;
+// gap: 1rem;
+// margin-bottom: 10rem;
+
+// @media ${device.tablet} {
+//   grid-template-columns: 1fr 1fr;
+//   flex-direction:row;
+//
+
+const ContentArea = styled.div`
+  display: grid;
+  gap: 2rem;
+  
+  @media (min-width: 800px) {
+    grid-template-columns: 1fr 1.5fr;
+  }
+  
+  @media (max-width: 799px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -179,6 +199,10 @@ const SignatureSection = styled.div`
   justify-content: flex-end;
   gap: 2rem;
   margin-top: 1rem;
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `;
 
 const SignatureBlock = styled.div`
@@ -213,7 +237,7 @@ const BaseButton = styled.button`
   font-family: 'Patua One';
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: 1rem;
+  font-size: 1.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
