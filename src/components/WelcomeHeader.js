@@ -19,24 +19,27 @@ export default function WelcomeHeader({ title = "HOMECOMING 2024" }) {
               <p>Dear Reader,</p>
               
               <p>
-                Welcome to Columbia! As you immerse yourself in the University community and settle into 
-                your new home, you will encounter a campus facing a pivotal moment in its history as you, 
-                too, undergo significant change. You probably have lots of lingering questions about what 
-                the years ahead will look like and how to navigate all of Columbia's different facets.
+              Welcome to Columbia! As you immerse yourself in the University community and settle into your new home, 
+              you will encounter a campus facing a pivotal moment in its history as you, too, undergo significant change. 
+              You probably have lots of lingering questions about what the years ahead will look like and how to navigate all 
+              of Columbia’s different facets. Inside this special issue, you will find everything we at Spectator think 
+              first-year students should know as you acquaint yourself with campus life.
+
               </p>
               
               <p>
-                Spectator is a financially independent nonprofit organization and the largest student-run 
-                news media group on campus, serving tens of thousands of readers across Columbia, 
-                Morningside Heights, and West Harlem. We have a 148-year tradition of documenting 
-                history as it unfolds through in-depth, well-reported stories that hold institutional power to 
-                account.
+              Spectator is a financially independent nonprofit organization and the largest student-run news media group on campus, 
+              serving tens of thousands of readers across Columbia, Morningside Heights, and West Harlem. We have a 148-year 
+              tradition of documenting history as it unfolds through in-depth, well-reported stories that hold institutional 
+              power to account.
               </p>
               
               <p>
                 Joining Spec is one of the best ways to kick off your four years at Columbia. When you 
                 become a member of the Spec family, nestled in our office in Riverside Church, you step into 
-                a community of sharp and passionate students who care deeply about the work they do.
+                a community of sharp and passionate students who care deeply about the work they do. Joining Spec
+                is one of the best ways to kick off your four years at Columbia. When you become a member of the Spec
+                family, nestled in our office in Riverside Church.
               </p>
             </TextContent>
             
@@ -79,9 +82,9 @@ const ContentWrapper = styled.div`
 
 const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1rem;
+  margin-bottom: 10rem;
   
   @media ${device.tablet} {
     grid-template-columns: 1fr 1fr;
@@ -92,12 +95,14 @@ const ImagePlaceholder = styled.div`
   background-color: #d1d1d1;
   height: 100%;
   width: 60%;
+  margin: 0 auto;
 `;
 
 const ContentColumn = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  100%;
 `;
 
 const Title = styled.h1`
@@ -124,7 +129,6 @@ const TextContent = styled.div`
   gap: 1rem;
   color: #0F0F0F;
   font-family: Bitter;
-  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   
@@ -142,24 +146,29 @@ const SignatureSection = styled.div`
 `;
 
 const SignatureBlock = styled.div`
-  text-align: right;
+  text-align: center;
 `;
 
 const SignatureName = styled.p`
-  font-style: italic;
+  font-style: normal;
+  color: #2C2C2C;
   margin: 0;
+  font-weight: 400;
+  font-family: "Nothing You Could Do";
 `;
 
 const SignatureTitle = styled.p`
   font-size: 0.875rem;
-  color: #666;
   margin: 0;
+  color: #2C2C2C;
+  font-family: Bitter;
 `;
 
 const Navigation = styled.nav`
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  justify-content: center;
 `;
 
 const BaseButton = styled.button`
