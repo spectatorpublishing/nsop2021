@@ -19,37 +19,59 @@ export default function WelcomeHeader({ title = "HOMECOMING 2024" }) {
               <p>Dear Reader,</p>
               
               <p>
-              Welcome to Columbia! As you immerse yourself in the University community and settle into your new home, 
-              you will encounter a campus facing a pivotal moment in its history as you, too, undergo significant change. 
-              You probably have lots of lingering questions about what the years ahead will look like and how to navigate all 
-              of Columbia’s different facets. Inside this special issue, you will find everything we at Spectator think 
-              first-year students should know as you acquaint yourself with campus life.
+              It’s that time of year again—alumni and parents flood onto campus and Columbia students make their annual trek up 
+              to Wien Stadium by shuttle bus or subway. For one weekend, we embrace the spirit of sports and the ways it can 
+              bring us together in celebration and community. 
 
               </p>
               
               <p>
-              Spectator is a financially independent nonprofit organization and the largest student-run news media group on campus, 
-              serving tens of thousands of readers across Columbia, Morningside Heights, and West Harlem. We have a 148-year 
-              tradition of documenting history as it unfolds through in-depth, well-reported stories that hold institutional 
-              power to account.
+              However, it’s not always easy to be a Columbia football fan. While the Lions have tumbled up and down the 
+              Ivy League standings over the last decade, there have been, <space></space>
+              <a href="https://www.columbiaspectator.com/sports/2023/10/14/the-day-columbia-discovered-school-spirit-a-look-back-at-columbias-wildest-homecoming-celebration/" target="_blank" rel="noopener noreferrer">famously</a>, 
+              straight seasons where the 
+              team didn’t win at all.
+              
               </p>
               
               <p>
-                Joining Spec is one of the best ways to kick off your four years at Columbia. When you 
-                become a member of the Spec family, nestled in our office in Riverside Church, you step into 
-                a community of sharp and passionate students who care deeply about the work they do. Joining Spec
-                is one of the best ways to kick off your four years at Columbia. When you become a member of the Spec
-                family, nestled in our office in Riverside Church.
+                
+              There was a moment last year when it looked like the football team wasn’t going to log a single win in 
+              conference play. After legendary head coach Al Bagnoli retired, the future of the program was uncertain. 
+              Interim head coach Mark Fabish came and went quickly. Could the Lions really pull themselves out of rock bottom 
+              just one season later?
+              </p>
+
+              <p>
+                
+              As we watched Columbia take down Penn last week for its first win at Franklin Field since 1996, the answer, 
+              it seemed, was a resounding “yes.” New head coach Jon Poppe might be ushering in a new era of Lions football, 
+              and his team has been electric. It’s an effort made possible by new and old faces on the field. In the season opener, 
+              sophomore Chase Goodwin stepped up as the new starting quarterback, and he’s already making an impact with 800 
+              passing yards and just one interception across four games. Veteran players like senior running backs Malcom Terry II 
+              and Joey Giorgi have combined for 768 rushing yards this season.
+              </p>
+
+              <p>
+              Now tied with Dartmouth atop the conference standings, Columbia’s game this weekend will be a battle of the 
+              Ivy League’s best. Whatever the outcome, it’ll be a matchup you won’t want to miss. Even if you don’t consider 
+              yourself a sports fan, you can still get in on all the fun—and this edition is a great way to shift into 
+              that state of mind. From profiles of the team’s stars to insights on Columbia merch, we hope you’ll enjoy this 
+              celebration of Columbia spirit. 
               </p>
             </TextContent>
             
             <SignatureSection>
               <SignatureBlock>
-                <SignatureName>First Last</SignatureName>
+                <SignatureName>Heathen Chen</SignatureName>
+                <SignatureTitle>Sports Editor</SignatureTitle>
+              </SignatureBlock>
+              <SignatureBlock>
+                <SignatureName>Isabella Ramírez</SignatureName>
                 <SignatureTitle>Editor in Chief</SignatureTitle>
               </SignatureBlock>
               <SignatureBlock>
-                <SignatureName>First Last</SignatureName>
+                <SignatureName>Esha Karam</SignatureName>
                 <SignatureTitle>Managing Editor</SignatureTitle>
               </SignatureBlock>
             </SignatureSection>
