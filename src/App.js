@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Section from './components/Section';
 import StaffCredits from './components/StaffCredits';
 import WelcomeHeader from './components/WelcomeHeader';
+import homecomingImage from './homecoming.jpg';
 import { device } from './device';
 
 const FirstFold = styled.div`
@@ -60,7 +61,10 @@ function App() {
 
   return (
     <div className="App">
-        <WelcomeHeader></WelcomeHeader>
+        <WelcomeHeader
+          title="HOMECOMING 2024" 
+          imageSrc={homecomingImage}
+        />
         {/* <FirstFold>
           <NavTabs />
           <MainImage src="https://spectatorpublishing.github.io/nsopCampusMap/" frameBorder="0" scrolling="no" />

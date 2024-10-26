@@ -2,14 +2,14 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import { device } from '../device';
 
-export default function WelcomeHeader({ title = "HOMECOMING 2024" }) {
+export default function WelcomeHeader({ title, imageSrc  }) {
   return (
     <Container>
       <ContentWrapper>
         {/* Grid Layout */}
         <GridContainer>
           {/* Left Column - Placeholder */}
-          <ImagePlaceholder />
+          <ImagePlaceholder src={imageSrc} />
           
           {/* Right Column - Content */}
           <ContentColumn>
@@ -99,7 +99,7 @@ const Container = styled.div`
 const ContentWrapper = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 6rem 1rem 2rem 1rem;
+  padding: 6rem;
 `;
 
 const GridContainer = styled.div`
@@ -114,11 +114,13 @@ const GridContainer = styled.div`
   }
 `;
 
-const ImagePlaceholder = styled.div`
+const ImagePlaceholder = styled.img`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #d1d1d1;
-  height: 100%;
-  width: 60%;
   margin: 0 auto;
+  max-width: 90%;
 `;
 
 const ContentColumn = styled.div`
