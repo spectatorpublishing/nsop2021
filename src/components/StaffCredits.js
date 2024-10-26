@@ -1,14 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { credits } from '../data/Credits';
+import { device } from '../device';
 
 const Wrapper = styled.div`
-    background-color: #D37462;
-    padding: 2rem 0 2rem 0;
+    background-color: #EBF0F5;
+    padding: 4rem 2rem;
 
     @media only screen and (max-width: 800) {
         padding: 1rem 0 1rem 0;
     }
+`;
+
+// to control the relationship between title and information/boxes
+const ContentContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;  // Consistent spacing between title and content
+    max-width: 1200px;
+    margin: 0 auto;
 `;
 
 const Direction = styled.div`
@@ -22,15 +32,15 @@ const Direction = styled.div`
 
 const Text = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    font-family: 'Noto Sans', Calibri, sans-serif;
+    font-family: Bitter;
     font-size: 18px;
-    color: white;
+    color: #38319B;
     font-weight: 500;
     
     h2 {
-        font-family: 'Noto Sans', Calibri, sans-serif;
+        font-family: 'Passion One';
         font-weight: 600;
         font-size: 24px;
         text-transform: uppercase;
@@ -89,12 +99,21 @@ const Box = styled.div`
 `;
 
 const Title = styled.div`
-    font-family: 'Noto Sans', Calibri, sans-serif;
-    font-weight: 600;
-    font-size: 3rem;
-    color: white;
+    color: #312D9C;
+    font-family: "Passion One";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.2px;
+    margin:0;
     text-transform: uppercase;
-    text-align: center;
+    text-align:center;
+    margin: 0;
+  
+    @media ${device.tablet} {
+    font-size: 3rem;
+  }
 
     @media only screen and (max-width: 425px) {
         font-size: 2rem;
@@ -133,7 +152,7 @@ const CreditsList = () => {
                 <Text>
                     <Direction>
                     <Column>
-                        {["Corporate Board", "News", "Opinion", "Copy", "Graphics", "Photo", "Product Design", "Newsroom Development"].map(section => (
+                        {["Corporate Board", "Crosswords", "Audio"].map(section => (
                             <Box>
                                 <h2>{section}</h2>
                                 {credits[section].map(person => (
@@ -143,7 +162,7 @@ const CreditsList = () => {
                         ))}
                     </Column>
                     <Column>
-                        {["Sports", "A&E", "Illustrations", "Podcasts", "Spectrum", "Engagement", "Engineering", "Revenue"].map(section => (
+                        {["Sports", "Graphics", "Engineering"].map(section => (
                             <Box>
                                 <h2>{section}</h2>
                                 {credits[section].map(person => (
@@ -163,7 +182,7 @@ const CreditsList = () => {
                 <Text>
                     <Direction>
                     <Column>
-                        {["Corporate Board", "News", "Copy", "Graphics", "Photo"].map(section => (
+                        {["Corporate Board", "Crosswords"].map(section => (
                             <Box>
                                 <h2>{section}</h2>
                                 {credits[section].map(person => (
@@ -173,7 +192,7 @@ const CreditsList = () => {
                         ))}
                     </Column>
                     <Column>
-                        {["Sports", "A&E", "Illustrations", "Podcasts", "Spectrum"].map(section => (
+                        {["Audio", "Sports"].map(section => (
                             <Box>
                                 <h2>{section}</h2>
                                 {credits[section].map(person => (
@@ -183,7 +202,7 @@ const CreditsList = () => {
                         ))}
                     </Column>
                     <Column>
-                        {["Engagement", "Engineering", "Opinion", "Product Design", "Newsroom Development", "Revenue", "Engagement"].map(section => (
+                        {["Graphics", "Engineering"].map(section => (
                             <Box>
                                 <h2>{section}</h2>
                                 {credits[section].map(person => (
