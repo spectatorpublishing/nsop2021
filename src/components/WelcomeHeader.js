@@ -27,8 +27,8 @@ export default function WelcomeHeader({ title = "HOMECOMING 2024" }) {
               
               <p>
               However, it’s not always easy to be a Columbia football fan. While the Lions have tumbled up and down the 
-              Ivy League standings over the last decade, there have been, <space></space>
-              <a href="https://www.columbiaspectator.com/sports/2023/10/14/the-day-columbia-discovered-school-spirit-a-look-back-at-columbias-wildest-homecoming-celebration/" target="_blank" rel="noopener noreferrer">famously</a>, 
+              Ivy League standings over the last decade, there have been, 
+                <a href="https://www.columbiaspectator.com/sports/2023/10/14/the-day-columbia-discovered-school-spirit-a-look-back-at-columbias-wildest-homecoming-celebration/" target="_blank" rel="noopener noreferrer">famously</a>, 
               straight seasons where the 
               team didn’t win at all.
               
@@ -107,9 +107,10 @@ const GridContainer = styled.div`
   grid-template-columns: 1fr 1.5fr;
   gap: 1rem;
   margin-bottom: 10rem;
-  
+
   @media ${device.tablet} {
     grid-template-columns: 1fr 1fr;
+    flex-direction:row;
   }
 `;
 

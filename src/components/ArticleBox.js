@@ -4,8 +4,8 @@ import { device } from '../device';
 const Wrap = styled.a`
     background-color: white;
     width: 40rem;
+    align-items: center;
     border-radius: 5px;
-    margin: 1rem;
     color: black;
     text-decoration: none;
 
