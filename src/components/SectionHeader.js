@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../device';
 
 export default function SectionHeader({ title }) {
     return (
@@ -16,11 +17,18 @@ const Header = styled.h2`
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2.2px;
+    margin:0;
     text-transform: uppercase;
+    padding: 2rem 3rem;
+    
+    @media (max-width: ${device.tablet}) {
+        padding: 2rem 1rem;
+    }
 
 `;
 
 const WrapLogo = styled.div`
+width: 100%;
 
 `;
 

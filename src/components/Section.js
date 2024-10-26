@@ -7,20 +7,20 @@ import { device } from '../device';
 const Wrapper = styled.div`
     display:flex;
     flex-direction: column;
-    @media ${device.tablet} {
-        margin: 8rem 0;
-        margin-bottom: 0;
-    }
     background-color: ${props => props.isEven ? '#EBF0F5' : 'white'}; // Alternating background color
+    @media ${device.tablet} {
+       padding: 2rem 0;
+    }
 `;
 
 const ArticleWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
+    padding: 2rem;
 
-    @media ${device.tablet} {
-        margin: 0rem 5rem;
-        margin-top: -3rem;
+    @media (max-width: ${device.tablet}) {
+        padding: 0 1rem;
+        gap: 1rem;
     }
 `;
 

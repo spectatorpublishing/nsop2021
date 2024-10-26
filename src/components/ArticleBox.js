@@ -3,10 +3,9 @@ import { device } from '../device';
 
 const Wrap = styled.a`
     background-color: white;
-    width: 40rem;
     align-items: center;
+    width:40rem;
     border-radius: 10px;
-    margin: 1rem;
     color: black;
     text-decoration: none;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
